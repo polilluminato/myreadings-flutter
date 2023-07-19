@@ -2,6 +2,7 @@ import 'dart:convert';
 
 import 'package:flutter/material.dart';
 import 'package:http/http.dart' as http;
+import 'package:myreadings/env/env.dart';
 import 'package:myreadings/models/notion_page.dart';
 import 'package:myreadings/utils/request_headers.dart' as request_headers;
 
@@ -10,8 +11,7 @@ class NotionRepository {
 
   Future<List<NotionPage>?> getBookList() async {
     var response = await http.post(
-      Uri.parse(
-          '${const String.fromEnvironment("NOTION_BASE_URL")}/${const String.fromEnvironment("NOTION_DB_BOOKS")}/query'),
+      Uri.parse('${Env.notionBaseUrl}/${Env.notionDbBooks}/query'),
       headers: request_headers.getNotionHeaders(),
       body: '{"page_size": 100}',
     );

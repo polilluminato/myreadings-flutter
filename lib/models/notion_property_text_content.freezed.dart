@@ -37,6 +37,8 @@ abstract class $NotionPropertyTextContentCopyWith<$Res> {
       _$NotionPropertyTextContentCopyWithImpl<$Res, NotionPropertyTextContent>;
   @useResult
   $Res call({String content, NotionPropertyTextContentUrl? link});
+
+  $NotionPropertyTextContentUrlCopyWith<$Res>? get link;
 }
 
 /// @nodoc
@@ -67,6 +69,18 @@ class _$NotionPropertyTextContentCopyWithImpl<$Res,
               as NotionPropertyTextContentUrl?,
     ) as $Val);
   }
+
+  @override
+  @pragma('vm:prefer-inline')
+  $NotionPropertyTextContentUrlCopyWith<$Res>? get link {
+    if (_value.link == null) {
+      return null;
+    }
+
+    return $NotionPropertyTextContentUrlCopyWith<$Res>(_value.link!, (value) {
+      return _then(_value.copyWith(link: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
@@ -79,6 +93,9 @@ abstract class _$$_NotionPropertyTextContentCopyWith<$Res>
   @override
   @useResult
   $Res call({String content, NotionPropertyTextContentUrl? link});
+
+  @override
+  $NotionPropertyTextContentUrlCopyWith<$Res>? get link;
 }
 
 /// @nodoc
@@ -134,13 +151,12 @@ class _$_NotionPropertyTextContent implements _NotionPropertyTextContent {
         (other.runtimeType == runtimeType &&
             other is _$_NotionPropertyTextContent &&
             (identical(other.content, content) || other.content == content) &&
-            const DeepCollectionEquality().equals(other.link, link));
+            (identical(other.link, link) || other.link == link));
   }
 
   @JsonKey(ignore: true)
   @override
-  int get hashCode => Object.hash(
-      runtimeType, content, const DeepCollectionEquality().hash(link));
+  int get hashCode => Object.hash(runtimeType, content, link);
 
   @JsonKey(ignore: true)
   @override

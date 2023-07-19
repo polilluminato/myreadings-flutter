@@ -1,10 +1,11 @@
 import 'dart:io';
 
+import 'package:myreadings/env/env.dart';
+
 Map<String, String> getNotionHeaders() {
   return {
     HttpHeaders.contentTypeHeader: 'application/json',
-    HttpHeaders.authorizationHeader:
-        'Bearer ${const String.fromEnvironment("NOTION_SECRET_KEY")}',
-    'Notion-Version': const String.fromEnvironment("NOTION_API_VERSION")
+    HttpHeaders.authorizationHeader: 'Bearer ${Env.notionSecretKey}',
+    'Notion-Version': Env.notionApiVersion
   };
 }
