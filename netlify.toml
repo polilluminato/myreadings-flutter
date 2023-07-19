@@ -6,6 +6,5 @@
     channel = "stable"
 
 [build]
-
-command = "flutter pub run build_runner build --delete-conflicting-outputs && flutter build web --release"
-publish = "build/web"
+   command = "flutter pub run build_runner build && flutter build web --release"
+   publish = "build/web"
