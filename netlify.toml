@@ -6,5 +6,5 @@
     channel = "stable"
 
 [build]
-   command = "flutter build web --release --dart-define NOTION_BASE_URL=${NOTION_BASE_URL} --dart-define NOTION_SECRET_KEY=${NOTION_SECRET_KEY} --dart-define NOTION_DB_BOOKS=${NOTION_DB_BOOKS} --dart-define NOTION_API_VERSION=${NOTION_API_VERSION}"
+   command = "flutter build web --release --dart-define WORKER_URL=${WORKER_URL}"
    publish = "build/web"
