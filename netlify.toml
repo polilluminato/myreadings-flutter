@@ -1,0 +1,11 @@
+[[plugins]]
+
+  package = "netlify-plugin-flutter"
+
+   [plugins.inputs]
+    channel = "stable"
+
+[build]
+
+command = "flutter pub run build_runner build --delete-conflicting-outputs && flutter build web --release"
+publish = "build/web"
