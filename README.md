@@ -7,6 +7,41 @@
   </p>
 </div>
 
+## 🧬 Project Structure
+
+### Run Project
+
+To run the project you have to pass some environment variables as described here: [How to Store API Keys in Flutter: --dart-define vs .env files](https://codewithandrea.com/articles/flutter-api-keys-dart-define-env-files/), in my case I opted for passing the key using `--dart-define` as it is easily integrated with CI/CD tools. This can be done in two ways:
+
+* pass individual variables to the build command with `--dart-define MY_VARIABLE=value`, a choice that is later used in Netlify to create the release build
+* pass a file with the variables with `--dart-define-from-file=api-keys.json`, a more convenient choice when developing locally
+
+In the first case the command is:
+
+```bash
+flutter run --dart-define MY_VARIABLE=value
+```
+
+In the second case, on the other hand, you have to go and create a file called `api-keys.json` to put in the root of the project, with this content:
+
+```json
+{
+  "MY_VARIABLE": "value"
+}
+```
+
+and then pass it like this:
+
+```bash
+flutter run --dart-define-from-file=api-keys.json
+```
+
+Within the app you can then take the reference to the environment variable in this way:
+
+```dart
+const myEnvironmentValue = String.fromEnvironment('MY_VARIABLE');
+```
+
 ## 💎 Contributing
 
 If you have any idea, feel free to fork it and submit your changes back to me.
