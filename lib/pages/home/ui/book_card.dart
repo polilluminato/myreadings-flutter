@@ -8,6 +8,9 @@ class BookCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    debugPrint("Finished: ${book.isFinished} - Progress: ${book.progress}"
+        " - date: ${book.date} - Link: ${book.link}"
+        " - author ${book.author} - cover: ${book.cover}");
     return Text(book.title);
   }
 }

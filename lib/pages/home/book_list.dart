@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:myreadings/models/book.dart';
 import 'package:myreadings/models/notion_page.dart';
-import 'package:myreadings/pages/home/ui/annuncio_card.dart';
+import 'package:myreadings/pages/home/ui/book_card.dart';
 import 'package:myreadings/provider/AsyncValueWidget.dart';
 import 'package:myreadings/provider/notion_provider.dart';
 

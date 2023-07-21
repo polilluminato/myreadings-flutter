@@ -12,7 +12,7 @@ class NotionRepository {
       body: '{"page_size": 100}',
     );
 
-    final responseBodyParsed = json.decode(response.body);
+    Map<String, dynamic> responseBodyParsed = json.decode(response.body);
     return responseBodyParsed["results"]
         .map<NotionPage>((json) => NotionPage.fromJson(json))
         .toList();
