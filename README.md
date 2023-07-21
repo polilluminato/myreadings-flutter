@@ -1,5 +1,5 @@
 <div align="center">
-  <h1>My Readings with <a href="https://flutter.dev/" target="_blank">Flutter</a> on the Web</h1>
+  <h1>My Readings with Flutter on the Web</h1>
   <p align="center">
   <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"></a>
   <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
@@ -7,9 +7,21 @@
   </p>
 </div>
 
+<img src="screenshots/homepage.png"/>
+
+The purpose of this application is to create a dashboard where you can share the books you have read, future books, and track the progress of those being read.
+
+ The application currently allows you to view books that have been saved in a [Notion](https://www.notion.so/) database and shows them on a web page, so it does not allow books to be added, edited or deleted. 
+
+It uses a [CloudFlare Worker](https://workers.cloudflare.com/) to do this since Notion does not allow its API to be called directly from a Web page.
+
 ## 🧬 Project Structure
 
-### Run Project
+### 📚 Notion Database
+
+### ⚙️ CloudFlare Worker
+
+### 🚀 Run Project
 
 To run the project you have to pass some environment variables as described here: [How to Store API Keys in Flutter: --dart-define vs .env files](https://codewithandrea.com/articles/flutter-api-keys-dart-define-env-files/), in my case I opted for passing the key using `--dart-define` as it is easily integrated with CI/CD tools. This can be done in two ways:
 
@@ -46,7 +58,7 @@ const myEnvironmentValue = String.fromEnvironment('MY_VARIABLE');
 
 If you have any idea, feel free to fork it and submit your changes back to me.
 
-## 📋 License
+## 📃 License
 
 ```
 Copyright 2023 Alberto Bonacina
