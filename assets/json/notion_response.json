@@ -1,0 +1,1194 @@
+{
+   "object": "list",
+   "results": [
+      {
+         "object": "page",
+         "id": "dc9a3808-c7cb-41ad-9b18-43ef91ff4fbf",
+         "created_time": "2023-06-30T14:44:00.000Z",
+         "last_edited_time": "2023-07-21T11:50:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71TCh7Wy3-L.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-07-14",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Gastone Breccia",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Gastone Breccia",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/2Pt1EbOT"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "La fatica più bella. Perché correre cambia la vita",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "La fatica più bella. Perché correre cambia la vita",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/La-fatica-pi-bella-Perch-correre-cambia-la-vita-dc9a3808c7cb41ad9b1843ef91ff4fbf",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "f5ef615a-68dc-429c-aa71-3fdabf388971",
+         "created_time": "2023-06-30T14:40:00.000Z",
+         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61te-GSfeTL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Nir Eyal",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Nir Eyal",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 0
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/gk35HGTY"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Come diventare indistraibili",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Come diventare indistraibili",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Come-diventare-indistraibili-f5ef615a68dc429caa713fdabf388971",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "7eaf85f9-f861-44d1-8e42-93d98b56c763",
+         "created_time": "2023-06-30T14:35:00.000Z",
+         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71z0Wf+H7CL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ichiro Kishimi, Fumitake Koga",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ichiro Kishimi, Fumitake Koga",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 0
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/RtHzimHn"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il coraggio di essere felici. L’autentico cambiamento è nelle nostre mani",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il coraggio di essere felici. L’autentico cambiamento è nelle nostre mani",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-coraggio-di-essere-felici-L-autentico-cambiamento-nelle-nostre-mani-7eaf85f9f86144d18e4293d98b56c763",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "5f9fe90b-6d6c-4a3c-b549-c0d70248048a",
+         "created_time": "2023-06-30T14:34:00.000Z",
+         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71deGtgpYEL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-07-21",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ichiro Kishimi, Fumitake Koga",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ichiro Kishimi, Fumitake Koga",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/78iN93mf"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il coraggio di non piacere. Liberati dal giudizio degli altri e trova l’autentica felicità",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il coraggio di non piacere. Liberati dal giudizio degli altri e trova l’autentica felicità",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-coraggio-di-non-piacere-Liberati-dal-giudizio-degli-altri-e-trova-l-autentica-felicit-5f9fe90b6d6c4a3cb549c0d70248048a",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "0b4719ff-89f2-465f-b728-9b299e64257b",
+         "created_time": "2023-06-30T14:32:00.000Z",
+         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51L7Ca8lowL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Mark Manson",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Mark Manson",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 1
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/2ln9m56c"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Siamo fottuti : ma forse c'è ancora una speranza",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Siamo fottuti : ma forse c'è ancora una speranza",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Siamo-fottuti-ma-forse-c-ancora-una-speranza-0b4719ff89f2465fb7289b299e64257b",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "bae58d38-6efe-4b46-8aa6-c6717cd11146",
+         "created_time": "2023-06-10T05:58:00.000Z",
+         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61xaCAzH-TL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-06-26",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Mark Manson",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Mark Manson",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/YZ8a9d5A"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "La sottile arte di fare quello che c***o ti pare",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "La sottile arte di fare quello che c***o ti pare",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/La-sottile-arte-di-fare-quello-che-c-o-ti-pare-bae58d386efe4b468aa6c6717cd11146",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "8aa6156c-8454-4bac-8d3a-9c66e589bff2",
+         "created_time": "2023-05-26T21:07:00.000Z",
+         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51b7xbAG0bL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-06-10",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "James Clear",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "James Clear",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/ZfXGbTa1"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Piccole abitudini per grandi cambiamenti : trasforma la tua vita un piccolo passo per volta",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Piccole abitudini per grandi cambiamenti : trasforma la tua vita un piccolo passo per volta",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Piccole-abitudini-per-grandi-cambiamenti-trasforma-la-tua-vita-un-piccolo-passo-per-volta-8aa6156c84544bac8d3a9c66e589bff2",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "ddc23054-25c9-4a2a-b1b3-82c410dbf289",
+         "created_time": "2023-05-26T21:05:00.000Z",
+         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/41Zs0WGi+vL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Tim Ferriss",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Tim Ferriss",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 0
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/jUNMVKjh"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/4-ore-alla-settimana-ricchi-e-felici-lavorando-10-volte-meno-ddc2305425c94a2ab1b382c410dbf289",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "dff5b003-9ef9-4171-90b0-bab6aa334f34",
+         "created_time": "2023-05-26T20:57:00.000Z",
+         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/81lPp5me4aL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-06-02",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ryder Carrol",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ryder Carrol",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/ZFPQ40Q1"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il metodo Bullet Journal : tieni traccia del passato, ordina il presente, progetta il futuro",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il metodo Bullet Journal : tieni traccia del passato, ordina il presente, progetta il futuro",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-metodo-Bullet-Journal-tieni-traccia-del-passato-ordina-il-presente-progetta-il-futuro-dff5b0039ef9417190b0bab6aa334f34",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "0fc0a027-dc6a-491c-ad95-13de3870e5ae",
+         "created_time": "2023-05-26T20:56:00.000Z",
+         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/715dxFl2lSL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-05-24",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Charles Duhigg",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Charles Duhigg",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/UfhQJAlE"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il potere delle abitudini : come si formano, quanto ci condizionano, come cambiarle",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il potere delle abitudini : come si formano, quanto ci condizionano, come cambiarle",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-potere-delle-abitudini-come-si-formano-quanto-ci-condizionano-come-cambiarle-0fc0a027dc6a491cad9513de3870e5ae",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "1275bd2c-7b8a-460f-8897-2ba39c64f8ba",
+         "created_time": "2022-07-03T06:55:00.000Z",
+         "last_edited_time": "2023-07-21T15:32:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61+9FTpp-EL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2022-09-01",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Matteo Riva",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Matteo Riva",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/sE7Vw71r"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "47 Giorni - L’ora del presidente",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "47 Giorni - L’ora del presidente",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/47-Giorni-L-ora-del-presidente-1275bd2c7b8a460f88972ba39c64f8ba",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "b0b8c995-a1bf-4ea7-9259-9e5e6e7f1386",
+         "created_time": "2022-07-03T06:55:00.000Z",
+         "last_edited_time": "2023-07-21T11:50:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61R689pHTSL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2022-06-17",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Rudy Pesenti",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Rudy Pesenti",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 100
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/86Erp04C"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "E’ tutto perfetto",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "E’ tutto perfetto",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/E-tutto-perfetto-b0b8c995a1bf4ea792599e5e6e7f1386",
+         "public_url": null
+      }
+   ],
+   "next_cursor": null,
+   "has_more": false,
+   "type": "page_or_database",
+   "page_or_database": {},
+   "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman"
+}

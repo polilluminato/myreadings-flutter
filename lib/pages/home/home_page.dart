@@ -14,7 +14,10 @@ class HomePage extends ConsumerWidget {
           "My Reading List",
         ),
       ),
-      body: const BookList(),
+      body: const Padding(
+        padding: EdgeInsets.all(16),
+        child: BookList(),
+      ),
     );
   }
 }

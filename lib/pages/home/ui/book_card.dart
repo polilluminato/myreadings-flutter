@@ -11,6 +11,13 @@ class BookCard extends StatelessWidget {
     debugPrint("Finished: ${book.isFinished} - Progress: ${book.progress}"
         " - date: ${book.date} - Link: ${book.link}"
         " - author ${book.author} - cover: ${book.cover}");
-    return Text(book.title);
+    return Card(
+      child: ListTile(
+        leading: Image.network(book.cover),
+        title: Text(book.title),
+        subtitle: Text(book.author),
+        trailing: ElevatedButton(onPressed: () {}, child: const Text("Buy")),
+      ),
+    );
   }
 }
