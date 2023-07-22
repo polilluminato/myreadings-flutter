@@ -38,11 +38,11 @@ To make interaction with the Notion API easier, it is useful to pin these variab
 
 ### ⚙️ CloudFlare Worker
 
-[ ] Todo docs
+*ToDo docs*
 
 ### 🔮 Netlify Build
 
-[ ] Todo docs
+*ToDo docs*
 
 ### 🚀 Run Project
 
