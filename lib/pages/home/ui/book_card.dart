@@ -67,7 +67,7 @@ class BookCard extends StatelessWidget {
                       isFinished: book.isFinished,
                     ),
                   const SizedBox(
-                    height: 16,
+                    height: 8,
                   ),
                   ElevatedButton(
                     onPressed: () => openExternalURL(book.link),

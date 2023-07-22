@@ -1,4 +1,3 @@
-//Open the browser with the url provided
 import 'package:url_launcher/url_launcher.dart';
 
 void openExternalURL(String urlToLaunch) async {

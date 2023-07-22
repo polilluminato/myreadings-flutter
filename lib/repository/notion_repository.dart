@@ -8,16 +8,13 @@ class NotionRepository {
 
   Future<List<NotionPage>?> getBookList() async {
     var response = await http.post(
-      Uri.parse(const String.fromEnvironment('WORKER_URL')),
-      body: '{"page_size":100,'
-          '"sorts":['
-          '{"property":"Finished","direction":"ascending"},'
-          '{"property":"Progress","direction":"descending"},'
-          '{"property":"Date","direction":"descending"}'
-          ']}',
+      Uri.parse(
+        const String.fromEnvironment('WORKER_URL'),
+      ),
     );
 
-    Map<String, dynamic> responseBodyParsed = json.decode(response.body);
+    Map<String, dynamic> responseBodyParsed =
+        jsonDecode(utf8.decode(response.bodyBytes));
     return responseBodyParsed["results"]
         .map<NotionPage>((json) => NotionPage.fromJson(json))
         .toList();
