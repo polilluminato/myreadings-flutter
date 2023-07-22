@@ -3,9 +3,9 @@
    "results": [
       {
          "object": "page",
-         "id": "dc9a3808-c7cb-41ad-9b18-43ef91ff4fbf",
-         "created_time": "2023-06-30T14:44:00.000Z",
-         "last_edited_time": "2023-07-21T11:50:00.000Z",
+         "id": "0b4719ff-89f2-465f-b728-9b299e64257b",
+         "created_time": "2023-06-30T14:32:00.000Z",
+         "last_edited_time": "2023-07-21T15:34:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -25,21 +25,17 @@
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
-               "url": "https://m.media-amazon.com/images/I/71TCh7Wy3-L.jpg"
+               "url": "https://m.media-amazon.com/images/I/51L7Ca8lowL.jpg"
             },
             "Finished": {
                "id": "TKkN",
                "type": "checkbox",
-               "checkbox": true
+               "checkbox": false
             },
             "Date": {
                "id": "_%5DWf",
                "type": "date",
-               "date": {
-                  "start": "2023-07-14",
-                  "end": null,
-                  "time_zone": null
-               }
+               "date": null
             },
             "Author": {
                "id": "lGBo",
@@ -48,7 +44,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Gastone Breccia",
+                        "content": "Mark Manson",
                         "link": null
                      },
                      "annotations": {
@@ -59,7 +55,7 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Gastone Breccia",
+                     "plain_text": "Mark Manson",
                      "href": null
                   }
                ]
@@ -67,12 +63,12 @@
             "Progress": {
                "id": "%7CmhK",
                "type": "number",
-               "number": 100
+               "number": 1
             },
             "Link": {
                "id": "%7DnS%5E",
                "type": "url",
-               "url": "https://zltn.4word.it/b/2Pt1EbOT"
+               "url": "https://zltn.4word.it/b/2ln9m56c"
             },
             "Title": {
                "id": "title",
@@ -81,24 +77,24 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "La fatica più bella. Perché correre cambia la vita",
+                        "content": "Siamo fottuti : ma forse c'è ancora una speranza",
                         "link": null
                      },
                      "annotations": {
-                        "bold": true,
+                        "bold": false,
                         "italic": false,
                         "strikethrough": false,
                         "underline": false,
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "La fatica più bella. Perché correre cambia la vita",
+                     "plain_text": "Siamo fottuti : ma forse c'è ancora una speranza",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/La-fatica-pi-bella-Perch-correre-cambia-la-vita-dc9a3808c7cb41ad9b1843ef91ff4fbf",
+         "url": "https://www.notion.so/Siamo-fottuti-ma-forse-c-ancora-una-speranza-0b4719ff89f2465fb7289b299e64257b",
          "public_url": null
       },
       {
@@ -295,6 +291,102 @@
       },
       {
          "object": "page",
+         "id": "ddc23054-25c9-4a2a-b1b3-82c410dbf289",
+         "created_time": "2023-05-26T21:05:00.000Z",
+         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/41Zs0WGi+vL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Tim Ferriss",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Tim Ferriss",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "number",
+               "number": 0
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/jUNMVKjh"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/4-ore-alla-settimana-ricchi-e-felici-lavorando-10-volte-meno-ddc2305425c94a2ab1b382c410dbf289",
+         "public_url": null
+      },
+      {
+         "object": "page",
          "id": "5f9fe90b-6d6c-4a3c-b549-c0d70248048a",
          "created_time": "2023-06-30T14:34:00.000Z",
          "last_edited_time": "2023-07-21T15:34:00.000Z",
@@ -395,9 +487,9 @@
       },
       {
          "object": "page",
-         "id": "0b4719ff-89f2-465f-b728-9b299e64257b",
-         "created_time": "2023-06-30T14:32:00.000Z",
-         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "id": "dc9a3808-c7cb-41ad-9b18-43ef91ff4fbf",
+         "created_time": "2023-06-30T14:44:00.000Z",
+         "last_edited_time": "2023-07-21T11:50:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -417,17 +509,21 @@
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
-               "url": "https://m.media-amazon.com/images/I/51L7Ca8lowL.jpg"
+               "url": "https://m.media-amazon.com/images/I/71TCh7Wy3-L.jpg"
             },
             "Finished": {
                "id": "TKkN",
                "type": "checkbox",
-               "checkbox": false
+               "checkbox": true
             },
             "Date": {
                "id": "_%5DWf",
                "type": "date",
-               "date": null
+               "date": {
+                  "start": "2023-07-14",
+                  "end": null,
+                  "time_zone": null
+               }
             },
             "Author": {
                "id": "lGBo",
@@ -436,7 +532,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Mark Manson",
+                        "content": "Gastone Breccia",
                         "link": null
                      },
                      "annotations": {
@@ -447,7 +543,7 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Mark Manson",
+                     "plain_text": "Gastone Breccia",
                      "href": null
                   }
                ]
@@ -455,12 +551,12 @@
             "Progress": {
                "id": "%7CmhK",
                "type": "number",
-               "number": 1
+               "number": 100
             },
             "Link": {
                "id": "%7DnS%5E",
                "type": "url",
-               "url": "https://zltn.4word.it/b/2ln9m56c"
+               "url": "https://zltn.4word.it/b/2Pt1EbOT"
             },
             "Title": {
                "id": "title",
@@ -469,24 +565,24 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Siamo fottuti : ma forse c'è ancora una speranza",
+                        "content": "La fatica più bella. Perché correre cambia la vita",
                         "link": null
                      },
                      "annotations": {
-                        "bold": false,
+                        "bold": true,
                         "italic": false,
                         "strikethrough": false,
                         "underline": false,
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Siamo fottuti : ma forse c'è ancora una speranza",
+                     "plain_text": "La fatica più bella. Perché correre cambia la vita",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Siamo-fottuti-ma-forse-c-ancora-una-speranza-0b4719ff89f2465fb7289b299e64257b",
+         "url": "https://www.notion.so/La-fatica-pi-bella-Perch-correre-cambia-la-vita-dc9a3808c7cb41ad9b1843ef91ff4fbf",
          "public_url": null
       },
       {
@@ -687,102 +783,6 @@
             }
          },
          "url": "https://www.notion.so/Piccole-abitudini-per-grandi-cambiamenti-trasforma-la-tua-vita-un-piccolo-passo-per-volta-8aa6156c84544bac8d3a9c66e589bff2",
-         "public_url": null
-      },
-      {
-         "object": "page",
-         "id": "ddc23054-25c9-4a2a-b1b3-82c410dbf289",
-         "created_time": "2023-05-26T21:05:00.000Z",
-         "last_edited_time": "2023-07-21T15:35:00.000Z",
-         "created_by": {
-            "object": "user",
-            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
-         },
-         "last_edited_by": {
-            "object": "user",
-            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
-         },
-         "cover": null,
-         "icon": null,
-         "parent": {
-            "type": "database_id",
-            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
-         },
-         "archived": false,
-         "properties": {
-            "Cover": {
-               "id": "N%5CW%60",
-               "type": "url",
-               "url": "https://m.media-amazon.com/images/I/41Zs0WGi+vL.jpg"
-            },
-            "Finished": {
-               "id": "TKkN",
-               "type": "checkbox",
-               "checkbox": false
-            },
-            "Date": {
-               "id": "_%5DWf",
-               "type": "date",
-               "date": null
-            },
-            "Author": {
-               "id": "lGBo",
-               "type": "rich_text",
-               "rich_text": [
-                  {
-                     "type": "text",
-                     "text": {
-                        "content": "Tim Ferriss",
-                        "link": null
-                     },
-                     "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                     },
-                     "plain_text": "Tim Ferriss",
-                     "href": null
-                  }
-               ]
-            },
-            "Progress": {
-               "id": "%7CmhK",
-               "type": "number",
-               "number": 0
-            },
-            "Link": {
-               "id": "%7DnS%5E",
-               "type": "url",
-               "url": "https://zltn.4word.it/b/jUNMVKjh"
-            },
-            "Title": {
-               "id": "title",
-               "type": "title",
-               "title": [
-                  {
-                     "type": "text",
-                     "text": {
-                        "content": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
-                        "link": null
-                     },
-                     "annotations": {
-                        "bold": false,
-                        "italic": false,
-                        "strikethrough": false,
-                        "underline": false,
-                        "code": false,
-                        "color": "default"
-                     },
-                     "plain_text": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
-                     "href": null
-                  }
-               ]
-            }
-         },
-         "url": "https://www.notion.so/4-ore-alla-settimana-ricchi-e-felici-lavorando-10-volte-meno-ddc2305425c94a2ab1b382c410dbf289",
          "public_url": null
       },
       {
