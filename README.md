@@ -11,15 +11,38 @@
 
 The purpose of this application is to create a dashboard where you can share the books you have read, future books, and track the progress of those being read.
 
- The application currently allows you to view books that have been saved in a [Notion](https://www.notion.so/) database and shows them on a web page, so it does not allow books to be added, edited or deleted. 
+The application currently allows you to view books that have been saved in a [Notion](https://www.notion.so/) database and shows them on a web page, so it does not allow books to be added, edited or deleted. 
 
-It uses a [CloudFlare Worker](https://workers.cloudflare.com/) to do this since Notion does not allow its API to be called directly from a Web page.
+Since Notion API cannot be called directly from a web page a [CloudFlare Worker](https://workers.cloudflare.com/) was created as middleware between the web page and the API, whose code is in the file `cloudflare/worker.js`.
 
 ## 🧬 Project Structure
 
+To better understand how the application is organized an outline of its architecture is given, and the individual parts will be described in the dedicated sections:
+
+<img src="screenshots/architecture-diagram.jpg"/>
+
 ### 📚 Notion Database
 
+A [Notion database](https://www.notion.so/help/category/databases) with these characteristics was used to save the list of books and their characteristics:
+
+<img src="screenshots/notion-database-schema.png"/>
+
+In order to read the information within the database we must then create a Notion application, called [Integration](https://developers.notion.com/docs/create-a-notion-integration), to which we must give read privileges to the database. Once the application is created we will be given a secret in the form `secret_XXXX` which we must use later to interact with the API and take information from our database.
+
+To make interaction with the Notion API easier, it is useful to pin these variables that will be used later in the Cloudflare Worker:
+
+* NOTION_API_VERSION: `2022-06-28`
+* NOTION_BASE_URL: in our case is `https://api.notion.com/v1/databases`
+* NOTION_DB_BOOKS: it can be found by going to look at the url of the Notion pages where the database is located
+* NOTION_SECRET_KEY: `secret_XXXX`, found on the Integration page
+
 ### ⚙️ CloudFlare Worker
+
+[ ] Todo docs
+
+### 🔮 Netlify Build
+
+[ ] Todo docs
 
 ### 🚀 Run Project
 
