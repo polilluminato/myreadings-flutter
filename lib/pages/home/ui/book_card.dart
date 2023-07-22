@@ -50,7 +50,7 @@ class BookCard extends StatelessWidget {
                   ),
                   if (!book.isFinished && book.progress > 0)
                     LinearPercentIndicator(
-                      percent: 50 / 100,
+                      percent: book.progress / 100,
                       progressColor: colorScheme.onPrimary,
                       lineHeight: 8,
                       barRadius: const Radius.circular(8),
