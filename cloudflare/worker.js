@@ -36,7 +36,7 @@ async function handleRequest(request, env) {
    let notionResponse = await fetch(requestUrl, {
       body: JSON.stringify(requestBody),
       headers: {
-         "Content-Type": "application/json",
+         "Content-Type": "application/json; charset=utf-8",
          "Authorization": "Bearer " + env.NOTION_SECRET_KEY,
          "Notion-Version": env.NOTION_API_VERSION,
       },
