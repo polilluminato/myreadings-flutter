@@ -17,6 +17,8 @@ The application currently allows you to view books that have been saved in a [No
 
 Since Notion API cannot be called directly from a web page a [CloudFlare Worker](https://workers.cloudflare.com/) was created as middleware between the web page and the API, whose code is in the file `cloudflare/worker.js`.
 
+You can read the blog post on my blog here: [Boosting Productivity: A Guide to Building a Reading List App with Notion and Flutter Web](https://blog.albertobonacina.com/boosting-productivity-a-guide-to-building-a-reading-list-app-with-notion-and-flutter-web)
+
 ## 🧬 Project Structure
 
 To better understand how the application is organized an outline of its architecture is given, and the individual parts will be described in the dedicated sections:
