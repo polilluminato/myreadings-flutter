@@ -101,11 +101,12 @@ class _$NotionDatabaseResponseCopyWithImpl<T, $Res,
 }
 
 /// @nodoc
-abstract class _$$_NotionDatabaseResponseCopyWith<T, $Res>
+abstract class _$$NotionDatabaseResponseImplCopyWith<T, $Res>
     implements $NotionDatabaseResponseCopyWith<T, $Res> {
-  factory _$$_NotionDatabaseResponseCopyWith(_$_NotionDatabaseResponse<T> value,
-          $Res Function(_$_NotionDatabaseResponse<T>) then) =
-      __$$_NotionDatabaseResponseCopyWithImpl<T, $Res>;
+  factory _$$NotionDatabaseResponseImplCopyWith(
+          _$NotionDatabaseResponseImpl<T> value,
+          $Res Function(_$NotionDatabaseResponseImpl<T>) then) =
+      __$$NotionDatabaseResponseImplCopyWithImpl<T, $Res>;
   @override
   @useResult
   $Res call(
@@ -118,12 +119,13 @@ abstract class _$$_NotionDatabaseResponseCopyWith<T, $Res>
 }
 
 /// @nodoc
-class __$$_NotionDatabaseResponseCopyWithImpl<T, $Res>
+class __$$NotionDatabaseResponseImplCopyWithImpl<T, $Res>
     extends _$NotionDatabaseResponseCopyWithImpl<T, $Res,
-        _$_NotionDatabaseResponse<T>>
-    implements _$$_NotionDatabaseResponseCopyWith<T, $Res> {
-  __$$_NotionDatabaseResponseCopyWithImpl(_$_NotionDatabaseResponse<T> _value,
-      $Res Function(_$_NotionDatabaseResponse<T>) _then)
+        _$NotionDatabaseResponseImpl<T>>
+    implements _$$NotionDatabaseResponseImplCopyWith<T, $Res> {
+  __$$NotionDatabaseResponseImplCopyWithImpl(
+      _$NotionDatabaseResponseImpl<T> _value,
+      $Res Function(_$NotionDatabaseResponseImpl<T>) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -136,7 +138,7 @@ class __$$_NotionDatabaseResponseCopyWithImpl<T, $Res>
     Object? type = freezed,
     Object? developerSurvey = freezed,
   }) {
-    return _then(_$_NotionDatabaseResponse<T>(
+    return _then(_$NotionDatabaseResponseImpl<T>(
       object: freezed == object
           ? _value.object
           : object // ignore: cast_nullable_to_non_nullable
@@ -167,8 +169,8 @@ class __$$_NotionDatabaseResponseCopyWithImpl<T, $Res>
 
 /// @nodoc
 @JsonSerializable(genericArgumentFactories: true)
-class _$_NotionDatabaseResponse<T> extends _NotionDatabaseResponse<T> {
-  const _$_NotionDatabaseResponse(
+class _$NotionDatabaseResponseImpl<T> extends _NotionDatabaseResponse<T> {
+  const _$NotionDatabaseResponseImpl(
       {this.object,
       final List<T>? results,
       this.nextCursor,
@@ -178,9 +180,9 @@ class _$_NotionDatabaseResponse<T> extends _NotionDatabaseResponse<T> {
       : _results = results,
         super._();
 
-  factory _$_NotionDatabaseResponse.fromJson(
+  factory _$NotionDatabaseResponseImpl.fromJson(
           Map<String, dynamic> json, T Function(Object?) fromJsonT) =>
-      _$$_NotionDatabaseResponseFromJson(json, fromJsonT);
+      _$$NotionDatabaseResponseImplFromJson(json, fromJsonT);
 
   @override
   final String? object;
@@ -212,7 +214,7 @@ class _$_NotionDatabaseResponse<T> extends _NotionDatabaseResponse<T> {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionDatabaseResponse<T> &&
+            other is _$NotionDatabaseResponseImpl<T> &&
             (identical(other.object, object) || other.object == object) &&
             const DeepCollectionEquality().equals(other._results, _results) &&
             (identical(other.nextCursor, nextCursor) ||
@@ -237,13 +239,13 @@ class _$_NotionDatabaseResponse<T> extends _NotionDatabaseResponse<T> {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionDatabaseResponseCopyWith<T, _$_NotionDatabaseResponse<T>>
-      get copyWith => __$$_NotionDatabaseResponseCopyWithImpl<T,
-          _$_NotionDatabaseResponse<T>>(this, _$identity);
+  _$$NotionDatabaseResponseImplCopyWith<T, _$NotionDatabaseResponseImpl<T>>
+      get copyWith => __$$NotionDatabaseResponseImplCopyWithImpl<T,
+          _$NotionDatabaseResponseImpl<T>>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson(Object? Function(T) toJsonT) {
-    return _$$_NotionDatabaseResponseToJson<T>(this, toJsonT);
+    return _$$NotionDatabaseResponseImplToJson<T>(this, toJsonT);
   }
 }
 
@@ -254,12 +256,12 @@ abstract class _NotionDatabaseResponse<T> extends NotionDatabaseResponse<T> {
       final String? nextCursor,
       final bool? hasMore,
       final String? type,
-      final String? developerSurvey}) = _$_NotionDatabaseResponse<T>;
+      final String? developerSurvey}) = _$NotionDatabaseResponseImpl<T>;
   const _NotionDatabaseResponse._() : super._();
 
   factory _NotionDatabaseResponse.fromJson(
           Map<String, dynamic> json, T Function(Object?) fromJsonT) =
-      _$_NotionDatabaseResponse<T>.fromJson;
+      _$NotionDatabaseResponseImpl<T>.fromJson;
 
   @override
   String? get object;
@@ -275,6 +277,6 @@ abstract class _NotionDatabaseResponse<T> extends NotionDatabaseResponse<T> {
   String? get developerSurvey;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionDatabaseResponseCopyWith<T, _$_NotionDatabaseResponse<T>>
+  _$$NotionDatabaseResponseImplCopyWith<T, _$NotionDatabaseResponseImpl<T>>
       get copyWith => throw _privateConstructorUsedError;
 }

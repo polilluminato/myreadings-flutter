@@ -66,25 +66,25 @@ class _$NotionPropertyTextContentUrlCopyWithImpl<$Res,
 }
 
 /// @nodoc
-abstract class _$$_NotionPropertyTextContentUrlCopyWith<$Res>
+abstract class _$$NotionPropertyTextContentUrlImplCopyWith<$Res>
     implements $NotionPropertyTextContentUrlCopyWith<$Res> {
-  factory _$$_NotionPropertyTextContentUrlCopyWith(
-          _$_NotionPropertyTextContentUrl value,
-          $Res Function(_$_NotionPropertyTextContentUrl) then) =
-      __$$_NotionPropertyTextContentUrlCopyWithImpl<$Res>;
+  factory _$$NotionPropertyTextContentUrlImplCopyWith(
+          _$NotionPropertyTextContentUrlImpl value,
+          $Res Function(_$NotionPropertyTextContentUrlImpl) then) =
+      __$$NotionPropertyTextContentUrlImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({String url});
 }
 
 /// @nodoc
-class __$$_NotionPropertyTextContentUrlCopyWithImpl<$Res>
+class __$$NotionPropertyTextContentUrlImplCopyWithImpl<$Res>
     extends _$NotionPropertyTextContentUrlCopyWithImpl<$Res,
-        _$_NotionPropertyTextContentUrl>
-    implements _$$_NotionPropertyTextContentUrlCopyWith<$Res> {
-  __$$_NotionPropertyTextContentUrlCopyWithImpl(
-      _$_NotionPropertyTextContentUrl _value,
-      $Res Function(_$_NotionPropertyTextContentUrl) _then)
+        _$NotionPropertyTextContentUrlImpl>
+    implements _$$NotionPropertyTextContentUrlImplCopyWith<$Res> {
+  __$$NotionPropertyTextContentUrlImplCopyWithImpl(
+      _$NotionPropertyTextContentUrlImpl _value,
+      $Res Function(_$NotionPropertyTextContentUrlImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -92,7 +92,7 @@ class __$$_NotionPropertyTextContentUrlCopyWithImpl<$Res>
   $Res call({
     Object? url = null,
   }) {
-    return _then(_$_NotionPropertyTextContentUrl(
+    return _then(_$NotionPropertyTextContentUrlImpl(
       url: null == url
           ? _value.url
           : url // ignore: cast_nullable_to_non_nullable
@@ -103,11 +103,13 @@ class __$$_NotionPropertyTextContentUrlCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_NotionPropertyTextContentUrl implements _NotionPropertyTextContentUrl {
-  const _$_NotionPropertyTextContentUrl({required this.url});
+class _$NotionPropertyTextContentUrlImpl
+    implements _NotionPropertyTextContentUrl {
+  const _$NotionPropertyTextContentUrlImpl({required this.url});
 
-  factory _$_NotionPropertyTextContentUrl.fromJson(Map<String, dynamic> json) =>
-      _$$_NotionPropertyTextContentUrlFromJson(json);
+  factory _$NotionPropertyTextContentUrlImpl.fromJson(
+          Map<String, dynamic> json) =>
+      _$$NotionPropertyTextContentUrlImplFromJson(json);
 
   @override
   final String url;
@@ -121,7 +123,7 @@ class _$_NotionPropertyTextContentUrl implements _NotionPropertyTextContentUrl {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPropertyTextContentUrl &&
+            other is _$NotionPropertyTextContentUrlImpl &&
             (identical(other.url, url) || other.url == url));
   }
 
@@ -132,13 +134,14 @@ class _$_NotionPropertyTextContentUrl implements _NotionPropertyTextContentUrl {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPropertyTextContentUrlCopyWith<_$_NotionPropertyTextContentUrl>
-      get copyWith => __$$_NotionPropertyTextContentUrlCopyWithImpl<
-          _$_NotionPropertyTextContentUrl>(this, _$identity);
+  _$$NotionPropertyTextContentUrlImplCopyWith<
+          _$NotionPropertyTextContentUrlImpl>
+      get copyWith => __$$NotionPropertyTextContentUrlImplCopyWithImpl<
+          _$NotionPropertyTextContentUrlImpl>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPropertyTextContentUrlToJson(
+    return _$$NotionPropertyTextContentUrlImplToJson(
       this,
     );
   }
@@ -147,15 +150,16 @@ class _$_NotionPropertyTextContentUrl implements _NotionPropertyTextContentUrl {
 abstract class _NotionPropertyTextContentUrl
     implements NotionPropertyTextContentUrl {
   const factory _NotionPropertyTextContentUrl({required final String url}) =
-      _$_NotionPropertyTextContentUrl;
+      _$NotionPropertyTextContentUrlImpl;
 
   factory _NotionPropertyTextContentUrl.fromJson(Map<String, dynamic> json) =
-      _$_NotionPropertyTextContentUrl.fromJson;
+      _$NotionPropertyTextContentUrlImpl.fromJson;
 
   @override
   String get url;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionPropertyTextContentUrlCopyWith<_$_NotionPropertyTextContentUrl>
+  _$$NotionPropertyTextContentUrlImplCopyWith<
+          _$NotionPropertyTextContentUrlImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

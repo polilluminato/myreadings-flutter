@@ -29,6 +29,7 @@ mixin _$NotionPageProperty {
   int? get number => throw _privateConstructorUsedError;
   String? get url => throw _privateConstructorUsedError;
   NotionPropertyDate? get date => throw _privateConstructorUsedError;
+  NotionPropertyFormula? get formula => throw _privateConstructorUsedError;
 
   Map<String, dynamic> toJson() => throw _privateConstructorUsedError;
   @JsonKey(ignore: true)
@@ -50,9 +51,11 @@ abstract class $NotionPagePropertyCopyWith<$Res> {
       bool? checkbox,
       int? number,
       String? url,
-      NotionPropertyDate? date});
+      NotionPropertyDate? date,
+      NotionPropertyFormula? formula});
 
   $NotionPropertyDateCopyWith<$Res>? get date;
+  $NotionPropertyFormulaCopyWith<$Res>? get formula;
 }
 
 /// @nodoc
@@ -76,6 +79,7 @@ class _$NotionPagePropertyCopyWithImpl<$Res, $Val extends NotionPageProperty>
     Object? number = freezed,
     Object? url = freezed,
     Object? date = freezed,
+    Object? formula = freezed,
   }) {
     return _then(_value.copyWith(
       id: null == id
@@ -110,6 +114,10 @@ class _$NotionPagePropertyCopyWithImpl<$Res, $Val extends NotionPageProperty>
           ? _value.date
           : date // ignore: cast_nullable_to_non_nullable
               as NotionPropertyDate?,
+      formula: freezed == formula
+          ? _value.formula
+          : formula // ignore: cast_nullable_to_non_nullable
+              as NotionPropertyFormula?,
     ) as $Val);
   }
 
@@ -124,14 +132,26 @@ class _$NotionPagePropertyCopyWithImpl<$Res, $Val extends NotionPageProperty>
       return _then(_value.copyWith(date: value) as $Val);
     });
   }
+
+  @override
+  @pragma('vm:prefer-inline')
+  $NotionPropertyFormulaCopyWith<$Res>? get formula {
+    if (_value.formula == null) {
+      return null;
+    }
+
+    return $NotionPropertyFormulaCopyWith<$Res>(_value.formula!, (value) {
+      return _then(_value.copyWith(formula: value) as $Val);
+    });
+  }
 }
 
 /// @nodoc
-abstract class _$$_NotionPagePropertyCopyWith<$Res>
+abstract class _$$NotionPagePropertyImplCopyWith<$Res>
     implements $NotionPagePropertyCopyWith<$Res> {
-  factory _$$_NotionPagePropertyCopyWith(_$_NotionPageProperty value,
-          $Res Function(_$_NotionPageProperty) then) =
-      __$$_NotionPagePropertyCopyWithImpl<$Res>;
+  factory _$$NotionPagePropertyImplCopyWith(_$NotionPagePropertyImpl value,
+          $Res Function(_$NotionPagePropertyImpl) then) =
+      __$$NotionPagePropertyImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -142,18 +162,21 @@ abstract class _$$_NotionPagePropertyCopyWith<$Res>
       bool? checkbox,
       int? number,
       String? url,
-      NotionPropertyDate? date});
+      NotionPropertyDate? date,
+      NotionPropertyFormula? formula});
 
   @override
   $NotionPropertyDateCopyWith<$Res>? get date;
+  @override
+  $NotionPropertyFormulaCopyWith<$Res>? get formula;
 }
 
 /// @nodoc
-class __$$_NotionPagePropertyCopyWithImpl<$Res>
-    extends _$NotionPagePropertyCopyWithImpl<$Res, _$_NotionPageProperty>
-    implements _$$_NotionPagePropertyCopyWith<$Res> {
-  __$$_NotionPagePropertyCopyWithImpl(
-      _$_NotionPageProperty _value, $Res Function(_$_NotionPageProperty) _then)
+class __$$NotionPagePropertyImplCopyWithImpl<$Res>
+    extends _$NotionPagePropertyCopyWithImpl<$Res, _$NotionPagePropertyImpl>
+    implements _$$NotionPagePropertyImplCopyWith<$Res> {
+  __$$NotionPagePropertyImplCopyWithImpl(_$NotionPagePropertyImpl _value,
+      $Res Function(_$NotionPagePropertyImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -167,8 +190,9 @@ class __$$_NotionPagePropertyCopyWithImpl<$Res>
     Object? number = freezed,
     Object? url = freezed,
     Object? date = freezed,
+    Object? formula = freezed,
   }) {
-    return _then(_$_NotionPageProperty(
+    return _then(_$NotionPagePropertyImpl(
       id: null == id
           ? _value.id
           : id // ignore: cast_nullable_to_non_nullable
@@ -201,6 +225,10 @@ class __$$_NotionPagePropertyCopyWithImpl<$Res>
           ? _value.date
           : date // ignore: cast_nullable_to_non_nullable
               as NotionPropertyDate?,
+      formula: freezed == formula
+          ? _value.formula
+          : formula // ignore: cast_nullable_to_non_nullable
+              as NotionPropertyFormula?,
     ));
   }
 }
@@ -208,8 +236,8 @@ class __$$_NotionPagePropertyCopyWithImpl<$Res>
 /// @nodoc
 
 @JsonSerializable(explicitToJson: true)
-class _$_NotionPageProperty implements _NotionPageProperty {
-  const _$_NotionPageProperty(
+class _$NotionPagePropertyImpl implements _NotionPageProperty {
+  const _$NotionPagePropertyImpl(
       {required this.id,
       required this.type,
       final List<NotionPropertyText>? title,
@@ -217,12 +245,13 @@ class _$_NotionPageProperty implements _NotionPageProperty {
       this.checkbox,
       this.number,
       this.url,
-      this.date})
+      this.date,
+      this.formula})
       : _title = title,
         _richText = richText;
 
-  factory _$_NotionPageProperty.fromJson(Map<String, dynamic> json) =>
-      _$$_NotionPagePropertyFromJson(json);
+  factory _$NotionPagePropertyImpl.fromJson(Map<String, dynamic> json) =>
+      _$$NotionPagePropertyImplFromJson(json);
 
   @override
   final String id;
@@ -257,17 +286,19 @@ class _$_NotionPageProperty implements _NotionPageProperty {
   final String? url;
   @override
   final NotionPropertyDate? date;
+  @override
+  final NotionPropertyFormula? formula;
 
   @override
   String toString() {
-    return 'NotionPageProperty(id: $id, type: $type, title: $title, richText: $richText, checkbox: $checkbox, number: $number, url: $url, date: $date)';
+    return 'NotionPageProperty(id: $id, type: $type, title: $title, richText: $richText, checkbox: $checkbox, number: $number, url: $url, date: $date, formula: $formula)';
   }
 
   @override
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPageProperty &&
+            other is _$NotionPagePropertyImpl &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.type, type) || other.type == type) &&
             const DeepCollectionEquality().equals(other._title, _title) &&
@@ -276,7 +307,8 @@ class _$_NotionPageProperty implements _NotionPageProperty {
                 other.checkbox == checkbox) &&
             (identical(other.number, number) || other.number == number) &&
             (identical(other.url, url) || other.url == url) &&
-            (identical(other.date, date) || other.date == date));
+            (identical(other.date, date) || other.date == date) &&
+            (identical(other.formula, formula) || other.formula == formula));
   }
 
   @JsonKey(ignore: true)
@@ -290,18 +322,19 @@ class _$_NotionPageProperty implements _NotionPageProperty {
       checkbox,
       number,
       url,
-      date);
+      date,
+      formula);
 
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPagePropertyCopyWith<_$_NotionPageProperty> get copyWith =>
-      __$$_NotionPagePropertyCopyWithImpl<_$_NotionPageProperty>(
+  _$$NotionPagePropertyImplCopyWith<_$NotionPagePropertyImpl> get copyWith =>
+      __$$NotionPagePropertyImplCopyWithImpl<_$NotionPagePropertyImpl>(
           this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPagePropertyToJson(
+    return _$$NotionPagePropertyImplToJson(
       this,
     );
   }
@@ -316,10 +349,11 @@ abstract class _NotionPageProperty implements NotionPageProperty {
       final bool? checkbox,
       final int? number,
       final String? url,
-      final NotionPropertyDate? date}) = _$_NotionPageProperty;
+      final NotionPropertyDate? date,
+      final NotionPropertyFormula? formula}) = _$NotionPagePropertyImpl;
 
   factory _NotionPageProperty.fromJson(Map<String, dynamic> json) =
-      _$_NotionPageProperty.fromJson;
+      _$NotionPagePropertyImpl.fromJson;
 
   @override
   String get id;
@@ -339,7 +373,9 @@ abstract class _NotionPageProperty implements NotionPageProperty {
   @override
   NotionPropertyDate? get date;
   @override
+  NotionPropertyFormula? get formula;
+  @override
   @JsonKey(ignore: true)
-  _$$_NotionPagePropertyCopyWith<_$_NotionPageProperty> get copyWith =>
+  _$$NotionPagePropertyImplCopyWith<_$NotionPagePropertyImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

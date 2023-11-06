@@ -102,12 +102,12 @@ class _$NotionPropertyTextAnnotationCopyWithImpl<$Res,
 }
 
 /// @nodoc
-abstract class _$$_NotionPropertyTextAnnotationCopyWith<$Res>
+abstract class _$$NotionPropertyTextAnnotationImplCopyWith<$Res>
     implements $NotionPropertyTextAnnotationCopyWith<$Res> {
-  factory _$$_NotionPropertyTextAnnotationCopyWith(
-          _$_NotionPropertyTextAnnotation value,
-          $Res Function(_$_NotionPropertyTextAnnotation) then) =
-      __$$_NotionPropertyTextAnnotationCopyWithImpl<$Res>;
+  factory _$$NotionPropertyTextAnnotationImplCopyWith(
+          _$NotionPropertyTextAnnotationImpl value,
+          $Res Function(_$NotionPropertyTextAnnotationImpl) then) =
+      __$$NotionPropertyTextAnnotationImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -120,13 +120,13 @@ abstract class _$$_NotionPropertyTextAnnotationCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$_NotionPropertyTextAnnotationCopyWithImpl<$Res>
+class __$$NotionPropertyTextAnnotationImplCopyWithImpl<$Res>
     extends _$NotionPropertyTextAnnotationCopyWithImpl<$Res,
-        _$_NotionPropertyTextAnnotation>
-    implements _$$_NotionPropertyTextAnnotationCopyWith<$Res> {
-  __$$_NotionPropertyTextAnnotationCopyWithImpl(
-      _$_NotionPropertyTextAnnotation _value,
-      $Res Function(_$_NotionPropertyTextAnnotation) _then)
+        _$NotionPropertyTextAnnotationImpl>
+    implements _$$NotionPropertyTextAnnotationImplCopyWith<$Res> {
+  __$$NotionPropertyTextAnnotationImplCopyWithImpl(
+      _$NotionPropertyTextAnnotationImpl _value,
+      $Res Function(_$NotionPropertyTextAnnotationImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -139,7 +139,7 @@ class __$$_NotionPropertyTextAnnotationCopyWithImpl<$Res>
     Object? code = null,
     Object? color = null,
   }) {
-    return _then(_$_NotionPropertyTextAnnotation(
+    return _then(_$NotionPropertyTextAnnotationImpl(
       bold: null == bold
           ? _value.bold
           : bold // ignore: cast_nullable_to_non_nullable
@@ -170,8 +170,9 @@ class __$$_NotionPropertyTextAnnotationCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_NotionPropertyTextAnnotation implements _NotionPropertyTextAnnotation {
-  const _$_NotionPropertyTextAnnotation(
+class _$NotionPropertyTextAnnotationImpl
+    implements _NotionPropertyTextAnnotation {
+  const _$NotionPropertyTextAnnotationImpl(
       {required this.bold,
       required this.italic,
       required this.strikethrough,
@@ -179,8 +180,9 @@ class _$_NotionPropertyTextAnnotation implements _NotionPropertyTextAnnotation {
       required this.code,
       required this.color});
 
-  factory _$_NotionPropertyTextAnnotation.fromJson(Map<String, dynamic> json) =>
-      _$$_NotionPropertyTextAnnotationFromJson(json);
+  factory _$NotionPropertyTextAnnotationImpl.fromJson(
+          Map<String, dynamic> json) =>
+      _$$NotionPropertyTextAnnotationImplFromJson(json);
 
   @override
   final bool bold;
@@ -204,7 +206,7 @@ class _$_NotionPropertyTextAnnotation implements _NotionPropertyTextAnnotation {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPropertyTextAnnotation &&
+            other is _$NotionPropertyTextAnnotationImpl &&
             (identical(other.bold, bold) || other.bold == bold) &&
             (identical(other.italic, italic) || other.italic == italic) &&
             (identical(other.strikethrough, strikethrough) ||
@@ -223,13 +225,14 @@ class _$_NotionPropertyTextAnnotation implements _NotionPropertyTextAnnotation {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPropertyTextAnnotationCopyWith<_$_NotionPropertyTextAnnotation>
-      get copyWith => __$$_NotionPropertyTextAnnotationCopyWithImpl<
-          _$_NotionPropertyTextAnnotation>(this, _$identity);
+  _$$NotionPropertyTextAnnotationImplCopyWith<
+          _$NotionPropertyTextAnnotationImpl>
+      get copyWith => __$$NotionPropertyTextAnnotationImplCopyWithImpl<
+          _$NotionPropertyTextAnnotationImpl>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPropertyTextAnnotationToJson(
+    return _$$NotionPropertyTextAnnotationImplToJson(
       this,
     );
   }
@@ -243,10 +246,10 @@ abstract class _NotionPropertyTextAnnotation
       required final bool strikethrough,
       required final bool underline,
       required final bool code,
-      required final String color}) = _$_NotionPropertyTextAnnotation;
+      required final String color}) = _$NotionPropertyTextAnnotationImpl;
 
   factory _NotionPropertyTextAnnotation.fromJson(Map<String, dynamic> json) =
-      _$_NotionPropertyTextAnnotation.fromJson;
+      _$NotionPropertyTextAnnotationImpl.fromJson;
 
   @override
   bool get bold;
@@ -262,6 +265,7 @@ abstract class _NotionPropertyTextAnnotation
   String get color;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionPropertyTextAnnotationCopyWith<_$_NotionPropertyTextAnnotation>
+  _$$NotionPropertyTextAnnotationImplCopyWith<
+          _$NotionPropertyTextAnnotationImpl>
       get copyWith => throw _privateConstructorUsedError;
 }

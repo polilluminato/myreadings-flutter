@@ -105,11 +105,11 @@ class _$NotionPageCopyWithImpl<$Res, $Val extends NotionPage>
 }
 
 /// @nodoc
-abstract class _$$_NotionPageCopyWith<$Res>
+abstract class _$$NotionPageImplCopyWith<$Res>
     implements $NotionPageCopyWith<$Res> {
-  factory _$$_NotionPageCopyWith(
-          _$_NotionPage value, $Res Function(_$_NotionPage) then) =
-      __$$_NotionPageCopyWithImpl<$Res>;
+  factory _$$NotionPageImplCopyWith(
+          _$NotionPageImpl value, $Res Function(_$NotionPageImpl) then) =
+      __$$NotionPageImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -122,11 +122,11 @@ abstract class _$$_NotionPageCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$_NotionPageCopyWithImpl<$Res>
-    extends _$NotionPageCopyWithImpl<$Res, _$_NotionPage>
-    implements _$$_NotionPageCopyWith<$Res> {
-  __$$_NotionPageCopyWithImpl(
-      _$_NotionPage _value, $Res Function(_$_NotionPage) _then)
+class __$$NotionPageImplCopyWithImpl<$Res>
+    extends _$NotionPageCopyWithImpl<$Res, _$NotionPageImpl>
+    implements _$$NotionPageImplCopyWith<$Res> {
+  __$$NotionPageImplCopyWithImpl(
+      _$NotionPageImpl _value, $Res Function(_$NotionPageImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -139,7 +139,7 @@ class __$$_NotionPageCopyWithImpl<$Res>
     Object? properties = freezed,
     Object? url = freezed,
   }) {
-    return _then(_$_NotionPage(
+    return _then(_$NotionPageImpl(
       object: null == object
           ? _value.object
           : object // ignore: cast_nullable_to_non_nullable
@@ -170,8 +170,8 @@ class __$$_NotionPageCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_NotionPage implements _NotionPage {
-  const _$_NotionPage(
+class _$NotionPageImpl implements _NotionPage {
+  const _$NotionPageImpl(
       {required this.object,
       required this.id,
       @JsonKey(name: "created_time") required this.createdTime,
@@ -180,10 +180,10 @@ class _$_NotionPage implements _NotionPage {
       this.url})
       : _properties = properties;
 
-  factory _$_NotionPage.fromJson(
+  factory _$NotionPageImpl.fromJson(
     Map<String, dynamic> json,
   ) =>
-      _$$_NotionPageFromJson(
+      _$$NotionPageImplFromJson(
         json,
       );
 
@@ -219,7 +219,7 @@ class _$_NotionPage implements _NotionPage {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPage &&
+            other is _$NotionPageImpl &&
             (identical(other.object, object) || other.object == object) &&
             (identical(other.id, id) || other.id == id) &&
             (identical(other.createdTime, createdTime) ||
@@ -239,12 +239,12 @@ class _$_NotionPage implements _NotionPage {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPageCopyWith<_$_NotionPage> get copyWith =>
-      __$$_NotionPageCopyWithImpl<_$_NotionPage>(this, _$identity);
+  _$$NotionPageImplCopyWith<_$NotionPageImpl> get copyWith =>
+      __$$NotionPageImplCopyWithImpl<_$NotionPageImpl>(this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPageToJson(
+    return _$$NotionPageImplToJson(
       this,
     );
   }
@@ -257,11 +257,11 @@ abstract class _NotionPage implements NotionPage {
       @JsonKey(name: "created_time") required final String createdTime,
       @JsonKey(name: "last_edited_time") required final String lastEditedTime,
       final Map<String, NotionPageProperty>? properties,
-      final String? url}) = _$_NotionPage;
+      final String? url}) = _$NotionPageImpl;
 
   factory _NotionPage.fromJson(
     Map<String, dynamic> json,
-  ) = _$_NotionPage.fromJson;
+  ) = _$NotionPageImpl.fromJson;
 
   @override
   String get object;
@@ -279,6 +279,6 @@ abstract class _NotionPage implements NotionPage {
   String? get url;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionPageCopyWith<_$_NotionPage> get copyWith =>
+  _$$NotionPageImplCopyWith<_$NotionPageImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

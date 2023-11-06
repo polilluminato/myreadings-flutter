@@ -2,6 +2,7 @@
 
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:myreadings/models/notion_property_date.dart';
+import 'package:myreadings/models/notion_property_formula.dart';
 import 'package:myreadings/models/notion_property_text.dart';
 
 part 'notion_page_property.freezed.dart';
@@ -19,6 +20,7 @@ class NotionPageProperty with _$NotionPageProperty {
     int? number,
     String? url,
     NotionPropertyDate? date,
+    NotionPropertyFormula? formula,
   }) = _NotionPageProperty;
 
   factory NotionPageProperty.fromJson(Map<String, dynamic> json) =>

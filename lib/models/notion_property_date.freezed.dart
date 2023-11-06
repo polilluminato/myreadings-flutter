@@ -74,22 +74,22 @@ class _$NotionPropertyDateCopyWithImpl<$Res, $Val extends NotionPropertyDate>
 }
 
 /// @nodoc
-abstract class _$$_NotionPropertyDateCopyWith<$Res>
+abstract class _$$NotionPropertyDateImplCopyWith<$Res>
     implements $NotionPropertyDateCopyWith<$Res> {
-  factory _$$_NotionPropertyDateCopyWith(_$_NotionPropertyDate value,
-          $Res Function(_$_NotionPropertyDate) then) =
-      __$$_NotionPropertyDateCopyWithImpl<$Res>;
+  factory _$$NotionPropertyDateImplCopyWith(_$NotionPropertyDateImpl value,
+          $Res Function(_$NotionPropertyDateImpl) then) =
+      __$$NotionPropertyDateImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call({String? start, String? end, String? timezone});
 }
 
 /// @nodoc
-class __$$_NotionPropertyDateCopyWithImpl<$Res>
-    extends _$NotionPropertyDateCopyWithImpl<$Res, _$_NotionPropertyDate>
-    implements _$$_NotionPropertyDateCopyWith<$Res> {
-  __$$_NotionPropertyDateCopyWithImpl(
-      _$_NotionPropertyDate _value, $Res Function(_$_NotionPropertyDate) _then)
+class __$$NotionPropertyDateImplCopyWithImpl<$Res>
+    extends _$NotionPropertyDateCopyWithImpl<$Res, _$NotionPropertyDateImpl>
+    implements _$$NotionPropertyDateImplCopyWith<$Res> {
+  __$$NotionPropertyDateImplCopyWithImpl(_$NotionPropertyDateImpl _value,
+      $Res Function(_$NotionPropertyDateImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -99,7 +99,7 @@ class __$$_NotionPropertyDateCopyWithImpl<$Res>
     Object? end = freezed,
     Object? timezone = freezed,
   }) {
-    return _then(_$_NotionPropertyDate(
+    return _then(_$NotionPropertyDateImpl(
       start: freezed == start
           ? _value.start
           : start // ignore: cast_nullable_to_non_nullable
@@ -118,11 +118,11 @@ class __$$_NotionPropertyDateCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_NotionPropertyDate implements _NotionPropertyDate {
-  const _$_NotionPropertyDate({this.start, this.end, this.timezone});
+class _$NotionPropertyDateImpl implements _NotionPropertyDate {
+  const _$NotionPropertyDateImpl({this.start, this.end, this.timezone});
 
-  factory _$_NotionPropertyDate.fromJson(Map<String, dynamic> json) =>
-      _$$_NotionPropertyDateFromJson(json);
+  factory _$NotionPropertyDateImpl.fromJson(Map<String, dynamic> json) =>
+      _$$NotionPropertyDateImplFromJson(json);
 
   @override
   final String? start;
@@ -140,7 +140,7 @@ class _$_NotionPropertyDate implements _NotionPropertyDate {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPropertyDate &&
+            other is _$NotionPropertyDateImpl &&
             (identical(other.start, start) || other.start == start) &&
             (identical(other.end, end) || other.end == end) &&
             (identical(other.timezone, timezone) ||
@@ -154,13 +154,13 @@ class _$_NotionPropertyDate implements _NotionPropertyDate {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPropertyDateCopyWith<_$_NotionPropertyDate> get copyWith =>
-      __$$_NotionPropertyDateCopyWithImpl<_$_NotionPropertyDate>(
+  _$$NotionPropertyDateImplCopyWith<_$NotionPropertyDateImpl> get copyWith =>
+      __$$NotionPropertyDateImplCopyWithImpl<_$NotionPropertyDateImpl>(
           this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPropertyDateToJson(
+    return _$$NotionPropertyDateImplToJson(
       this,
     );
   }
@@ -170,10 +170,10 @@ abstract class _NotionPropertyDate implements NotionPropertyDate {
   const factory _NotionPropertyDate(
       {final String? start,
       final String? end,
-      final String? timezone}) = _$_NotionPropertyDate;
+      final String? timezone}) = _$NotionPropertyDateImpl;
 
   factory _NotionPropertyDate.fromJson(Map<String, dynamic> json) =
-      _$_NotionPropertyDate.fromJson;
+      _$NotionPropertyDateImpl.fromJson;
 
   @override
   String? get start;
@@ -183,6 +183,6 @@ abstract class _NotionPropertyDate implements NotionPropertyDate {
   String? get timezone;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionPropertyDateCopyWith<_$_NotionPropertyDate> get copyWith =>
+  _$$NotionPropertyDateImplCopyWith<_$NotionPropertyDateImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

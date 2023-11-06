@@ -6,9 +6,9 @@ part of 'notion_property_text_content.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_NotionPropertyTextContent _$$_NotionPropertyTextContentFromJson(
+_$NotionPropertyTextContentImpl _$$NotionPropertyTextContentImplFromJson(
         Map<String, dynamic> json) =>
-    _$_NotionPropertyTextContent(
+    _$NotionPropertyTextContentImpl(
       content: json['content'] as String,
       link: json['link'] == null
           ? null
@@ -16,8 +16,8 @@ _$_NotionPropertyTextContent _$$_NotionPropertyTextContentFromJson(
               json['link'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$$_NotionPropertyTextContentToJson(
-        _$_NotionPropertyTextContent instance) =>
+Map<String, dynamic> _$$NotionPropertyTextContentImplToJson(
+        _$NotionPropertyTextContentImpl instance) =>
     <String, dynamic>{
       'content': instance.content,
       'link': instance.link,

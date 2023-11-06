@@ -6,8 +6,8 @@ part of 'notion_page.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_NotionPage _$$_NotionPageFromJson(Map<String, dynamic> json) =>
-    _$_NotionPage(
+_$NotionPageImpl _$$NotionPageImplFromJson(Map<String, dynamic> json) =>
+    _$NotionPageImpl(
       object: json['object'] as String,
       id: json['id'] as String,
       createdTime: json['created_time'] as String,
@@ -19,7 +19,7 @@ _$_NotionPage _$$_NotionPageFromJson(Map<String, dynamic> json) =>
       url: json['url'] as String?,
     );
 
-Map<String, dynamic> _$$_NotionPageToJson(_$_NotionPage instance) =>
+Map<String, dynamic> _$$NotionPageImplToJson(_$NotionPageImpl instance) =>
     <String, dynamic>{
       'object': instance.object,
       'id': instance.id,

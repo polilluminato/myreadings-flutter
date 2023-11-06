@@ -6,9 +6,9 @@ part of 'notion_page_property.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_NotionPageProperty _$$_NotionPagePropertyFromJson(
+_$NotionPagePropertyImpl _$$NotionPagePropertyImplFromJson(
         Map<String, dynamic> json) =>
-    _$_NotionPageProperty(
+    _$NotionPagePropertyImpl(
       id: json['id'] as String,
       type: json['type'] as String,
       title: (json['title'] as List<dynamic>?)
@@ -23,10 +23,14 @@ _$_NotionPageProperty _$$_NotionPagePropertyFromJson(
       date: json['date'] == null
           ? null
           : NotionPropertyDate.fromJson(json['date'] as Map<String, dynamic>),
+      formula: json['formula'] == null
+          ? null
+          : NotionPropertyFormula.fromJson(
+              json['formula'] as Map<String, dynamic>),
     );
 
-Map<String, dynamic> _$$_NotionPagePropertyToJson(
-        _$_NotionPageProperty instance) =>
+Map<String, dynamic> _$$NotionPagePropertyImplToJson(
+        _$NotionPagePropertyImpl instance) =>
     <String, dynamic>{
       'id': instance.id,
       'type': instance.type,
@@ -36,4 +40,5 @@ Map<String, dynamic> _$$_NotionPagePropertyToJson(
       'number': instance.number,
       'url': instance.url,
       'date': instance.date?.toJson(),
+      'formula': instance.formula?.toJson(),
     };

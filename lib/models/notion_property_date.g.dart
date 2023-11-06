@@ -6,16 +6,16 @@ part of 'notion_property_date.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_NotionPropertyDate _$$_NotionPropertyDateFromJson(
+_$NotionPropertyDateImpl _$$NotionPropertyDateImplFromJson(
         Map<String, dynamic> json) =>
-    _$_NotionPropertyDate(
+    _$NotionPropertyDateImpl(
       start: json['start'] as String?,
       end: json['end'] as String?,
       timezone: json['timezone'] as String?,
     );
 
-Map<String, dynamic> _$$_NotionPropertyDateToJson(
-        _$_NotionPropertyDate instance) =>
+Map<String, dynamic> _$$NotionPropertyDateImplToJson(
+        _$NotionPropertyDateImpl instance) =>
     <String, dynamic>{
       'start': instance.start,
       'end': instance.end,

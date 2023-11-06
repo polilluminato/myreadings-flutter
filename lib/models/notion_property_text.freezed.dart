@@ -121,11 +121,11 @@ class _$NotionPropertyTextCopyWithImpl<$Res, $Val extends NotionPropertyText>
 }
 
 /// @nodoc
-abstract class _$$_NotionPropertyTextCopyWith<$Res>
+abstract class _$$NotionPropertyTextImplCopyWith<$Res>
     implements $NotionPropertyTextCopyWith<$Res> {
-  factory _$$_NotionPropertyTextCopyWith(_$_NotionPropertyText value,
-          $Res Function(_$_NotionPropertyText) then) =
-      __$$_NotionPropertyTextCopyWithImpl<$Res>;
+  factory _$$NotionPropertyTextImplCopyWith(_$NotionPropertyTextImpl value,
+          $Res Function(_$NotionPropertyTextImpl) then) =
+      __$$NotionPropertyTextImplCopyWithImpl<$Res>;
   @override
   @useResult
   $Res call(
@@ -142,11 +142,11 @@ abstract class _$$_NotionPropertyTextCopyWith<$Res>
 }
 
 /// @nodoc
-class __$$_NotionPropertyTextCopyWithImpl<$Res>
-    extends _$NotionPropertyTextCopyWithImpl<$Res, _$_NotionPropertyText>
-    implements _$$_NotionPropertyTextCopyWith<$Res> {
-  __$$_NotionPropertyTextCopyWithImpl(
-      _$_NotionPropertyText _value, $Res Function(_$_NotionPropertyText) _then)
+class __$$NotionPropertyTextImplCopyWithImpl<$Res>
+    extends _$NotionPropertyTextCopyWithImpl<$Res, _$NotionPropertyTextImpl>
+    implements _$$NotionPropertyTextImplCopyWith<$Res> {
+  __$$NotionPropertyTextImplCopyWithImpl(_$NotionPropertyTextImpl _value,
+      $Res Function(_$NotionPropertyTextImpl) _then)
       : super(_value, _then);
 
   @pragma('vm:prefer-inline')
@@ -158,7 +158,7 @@ class __$$_NotionPropertyTextCopyWithImpl<$Res>
     Object? plainText = freezed,
     Object? href = freezed,
   }) {
-    return _then(_$_NotionPropertyText(
+    return _then(_$NotionPropertyTextImpl(
       type: null == type
           ? _value.type
           : type // ignore: cast_nullable_to_non_nullable
@@ -185,16 +185,16 @@ class __$$_NotionPropertyTextCopyWithImpl<$Res>
 
 /// @nodoc
 @JsonSerializable()
-class _$_NotionPropertyText implements _NotionPropertyText {
-  const _$_NotionPropertyText(
+class _$NotionPropertyTextImpl implements _NotionPropertyText {
+  const _$NotionPropertyTextImpl(
       {required this.type,
       this.text,
       this.annotations,
       @JsonKey(name: "plain_text") this.plainText,
       this.href});
 
-  factory _$_NotionPropertyText.fromJson(Map<String, dynamic> json) =>
-      _$$_NotionPropertyTextFromJson(json);
+  factory _$NotionPropertyTextImpl.fromJson(Map<String, dynamic> json) =>
+      _$$NotionPropertyTextImplFromJson(json);
 
   @override
   final String type;
@@ -217,7 +217,7 @@ class _$_NotionPropertyText implements _NotionPropertyText {
   bool operator ==(dynamic other) {
     return identical(this, other) ||
         (other.runtimeType == runtimeType &&
-            other is _$_NotionPropertyText &&
+            other is _$NotionPropertyTextImpl &&
             (identical(other.type, type) || other.type == type) &&
             (identical(other.text, text) || other.text == text) &&
             (identical(other.annotations, annotations) ||
@@ -235,13 +235,13 @@ class _$_NotionPropertyText implements _NotionPropertyText {
   @JsonKey(ignore: true)
   @override
   @pragma('vm:prefer-inline')
-  _$$_NotionPropertyTextCopyWith<_$_NotionPropertyText> get copyWith =>
-      __$$_NotionPropertyTextCopyWithImpl<_$_NotionPropertyText>(
+  _$$NotionPropertyTextImplCopyWith<_$NotionPropertyTextImpl> get copyWith =>
+      __$$NotionPropertyTextImplCopyWithImpl<_$NotionPropertyTextImpl>(
           this, _$identity);
 
   @override
   Map<String, dynamic> toJson() {
-    return _$$_NotionPropertyTextToJson(
+    return _$$NotionPropertyTextImplToJson(
       this,
     );
   }
@@ -253,10 +253,10 @@ abstract class _NotionPropertyText implements NotionPropertyText {
       final NotionPropertyTextContent? text,
       final NotionPropertyTextAnnotation? annotations,
       @JsonKey(name: "plain_text") final String? plainText,
-      final String? href}) = _$_NotionPropertyText;
+      final String? href}) = _$NotionPropertyTextImpl;
 
   factory _NotionPropertyText.fromJson(Map<String, dynamic> json) =
-      _$_NotionPropertyText.fromJson;
+      _$NotionPropertyTextImpl.fromJson;
 
   @override
   String get type;
@@ -271,6 +271,6 @@ abstract class _NotionPropertyText implements NotionPropertyText {
   String? get href;
   @override
   @JsonKey(ignore: true)
-  _$$_NotionPropertyTextCopyWith<_$_NotionPropertyText> get copyWith =>
+  _$$NotionPropertyTextImplCopyWith<_$NotionPropertyTextImpl> get copyWith =>
       throw _privateConstructorUsedError;
 }

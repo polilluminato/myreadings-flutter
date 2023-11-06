@@ -6,9 +6,9 @@ part of 'notion_property_text_annotation.dart';
 // JsonSerializableGenerator
 // **************************************************************************
 
-_$_NotionPropertyTextAnnotation _$$_NotionPropertyTextAnnotationFromJson(
+_$NotionPropertyTextAnnotationImpl _$$NotionPropertyTextAnnotationImplFromJson(
         Map<String, dynamic> json) =>
-    _$_NotionPropertyTextAnnotation(
+    _$NotionPropertyTextAnnotationImpl(
       bold: json['bold'] as bool,
       italic: json['italic'] as bool,
       strikethrough: json['strikethrough'] as bool,
@@ -17,8 +17,8 @@ _$_NotionPropertyTextAnnotation _$$_NotionPropertyTextAnnotationFromJson(
       color: json['color'] as String,
     );
 
-Map<String, dynamic> _$$_NotionPropertyTextAnnotationToJson(
-        _$_NotionPropertyTextAnnotation instance) =>
+Map<String, dynamic> _$$NotionPropertyTextAnnotationImplToJson(
+        _$NotionPropertyTextAnnotationImpl instance) =>
     <String, dynamic>{
       'bold': instance.bold,
       'italic': instance.italic,
