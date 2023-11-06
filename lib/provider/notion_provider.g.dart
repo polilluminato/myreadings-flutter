@@ -6,7 +6,7 @@ part of 'notion_provider.dart';
 // RiverpodGenerator
 // **************************************************************************
 
-String _$bookListHash() => r'191dbc5307c858bc441bb5524620a534d8951565';
+String _$bookListHash() => r'e5db42a3419d4a54ec54b6c082b7cadba425c261';
 
 /// See also [bookList].
 @ProviderFor(bookList)
@@ -20,4 +20,5 @@ final bookListProvider = AutoDisposeFutureProvider<List<NotionPage>?>.internal(
 );
 
 typedef BookListRef = AutoDisposeFutureProviderRef<List<NotionPage>?>;
-// ignore_for_file: unnecessary_raw_strings, subtype_of_sealed_class, invalid_use_of_internal_member, do_not_use_environment, prefer_const_constructors, public_member_api_docs, avoid_private_typedef_functions
+// ignore_for_file: type=lint
+// ignore_for_file: subtype_of_sealed_class, invalid_use_of_internal_member, invalid_use_of_visible_for_testing_member
