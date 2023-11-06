@@ -9,7 +9,10 @@ class Book {
   late String date;
   late String author;
   late int progress;
+  late int progressivePages;
+  late int totPages;
   late String link;
+  late String authorLink;
 
   Book();
 
@@ -36,7 +39,12 @@ class Book {
                 .trim()
             : "");
 
-    progress = notionPage.properties!["Progress"]!.number ?? 0;
+    progressivePages = notionPage.properties!["ProgressivePages"]!.number ?? 0;
+    totPages = notionPage.properties!["TotPages"]!.number ?? 0;
+
+    progress = notionPage.properties!["Progress"]!.formula!.number ?? 0;
+
     link = notionPage.properties!["Link"]!.url ?? "";
+    authorLink = notionPage.properties!["AuthorLink"]!.url ?? "";
   }
 }

@@ -25,7 +25,7 @@ class BookCard extends StatelessWidget {
             child: Row(
               children: [
                 Flexible(
-                  flex: 1,
+                  flex: 2,
                   child: Padding(
                     padding: const EdgeInsets.only(right: 16),
                     child: ClipRRect(
@@ -35,16 +35,18 @@ class BookCard extends StatelessWidget {
                   ),
                 ),
                 Flexible(
-                  flex: 3,
+                  flex: 4,
                   child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    mainAxisAlignment: MainAxisAlignment.start,
                     crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       Text(
                         book.title,
-                        style: textTheme.bodyLarge,
+                        style: textTheme.bodyLarge!.copyWith(fontSize: 22),
                       ),
                       Text(
-                        book.author,
+                        "by ${book.author}\n${book.totPages} pages",
                         style: textTheme.bodyMedium,
                       ),
                       const SizedBox(
@@ -64,15 +66,16 @@ class BookCard extends StatelessWidget {
                           ),
                         ),
                       const SizedBox(
-                        height: 8,
+                        height: 16,
                       ),
                       Row(
-                        mainAxisAlignment: MainAxisAlignment.end,
+                        mainAxisAlignment: MainAxisAlignment.start,
                         children: [
-                          ElevatedButton(
-                            style: ElevatedButton.styleFrom(
-                                backgroundColor: Colors.amber[300],
-                                foregroundColor: Colors.black87),
+                          FilledButton(
+                            style: FilledButton.styleFrom(
+                              backgroundColor: Colors.amber[300],
+                              foregroundColor: Colors.black87,
+                            ),
                             onPressed: () => openExternalURL(book.link),
                             child: const Text("Buy on Amazon"),
                           ),

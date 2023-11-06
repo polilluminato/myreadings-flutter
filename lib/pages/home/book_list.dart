@@ -35,7 +35,7 @@ class BookList extends ConsumerWidget {
     return AsyncValueWidget<List<NotionPage>?>(
       value: bookList,
       data: (data) {
-        return MasonryGridView.count(
+        return AlignedGridView.count(
           crossAxisCount: _getColumnsNumber(screenSizeWidth),
           mainAxisSpacing: 16,
           crossAxisSpacing: 16,

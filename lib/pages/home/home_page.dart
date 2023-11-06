@@ -20,12 +20,10 @@ class HomePage extends ConsumerWidget {
               PopupMenuItem(
                 onTap: () => openExternalURL(
                     "https://github.com/polilluminato/myreadings-flutter"),
-                value: 1,
                 child: const Text("Github Repo"),
               ),
               PopupMenuItem(
                 onTap: () => openExternalURL("https://www.albertobonacina.com"),
-                value: 1,
                 child: const Text("My Website"),
               ),
             ],
