@@ -3,9 +3,9 @@
    "results": [
       {
          "object": "page",
-         "id": "0b4719ff-89f2-465f-b728-9b299e64257b",
-         "created_time": "2023-06-30T14:32:00.000Z",
-         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "id": "94359b35-2253-454a-be33-87be8b759b66",
+         "created_time": "2023-10-12T05:27:00.000Z",
+         "last_edited_time": "2023-11-06T21:00:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -22,10 +22,25 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 132
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 218
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
-               "url": "https://m.media-amazon.com/images/I/51L7Ca8lowL.jpg"
+               "url": "https://m.media-amazon.com/images/I/71Gw5PlHkiL._SL1233_.jpg"
             },
             "Finished": {
                "id": "TKkN",
@@ -44,7 +59,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Mark Manson",
+                        "content": "Cormac McCarthy",
                         "link": null
                      },
                      "annotations": {
@@ -55,20 +70,23 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Mark Manson",
+                     "plain_text": "Cormac McCarthy",
                      "href": null
                   }
                ]
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 28
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 61
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
                "type": "url",
-               "url": "https://zltn.4word.it/b/2ln9m56c"
+               "url": "https://zltn.4word.it/b/KUQZOCKl"
             },
             "Title": {
                "id": "title",
@@ -77,7 +95,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Siamo fottuti : ma forse c'è ancora una speranza",
+                        "content": "La strada",
                         "link": null
                      },
                      "annotations": {
@@ -88,20 +106,20 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Siamo fottuti : ma forse c'è ancora una speranza",
+                     "plain_text": "La strada",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Siamo-fottuti-ma-forse-c-ancora-una-speranza-0b4719ff89f2465fb7289b299e64257b",
+         "url": "https://www.notion.so/La-strada-94359b352253454abe3387be8b759b66",
          "public_url": null
       },
       {
          "object": "page",
-         "id": "f5ef615a-68dc-429c-aa71-3fdabf388971",
-         "created_time": "2023-06-30T14:40:00.000Z",
-         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "id": "05b9a017-b624-4b1a-8f4b-2a459fd7984d",
+         "created_time": "2023-10-27T20:23:00.000Z",
+         "last_edited_time": "2023-11-06T20:59:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -118,10 +136,25 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 16
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 268
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
-               "url": "https://m.media-amazon.com/images/I/61te-GSfeTL.jpg"
+               "url": "https://m.media-amazon.com/images/I/41fenorye2L.jpg"
             },
             "Finished": {
                "id": "TKkN",
@@ -140,7 +173,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Nir Eyal",
+                        "content": "Thomas J. Stanley",
                         "link": null
                      },
                      "annotations": {
@@ -151,20 +184,23 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Nir Eyal",
+                     "plain_text": "Thomas J. Stanley",
                      "href": null
                   }
                ]
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 0
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 6
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
                "type": "url",
-               "url": "https://zltn.4word.it/b/gk35HGTY"
+               "url": "https://zltn.4word.it/b/awI5Luep"
             },
             "Title": {
                "id": "title",
@@ -173,7 +209,349 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Come diventare indistraibili",
+                        "content": "Il milionario della porta accanto",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il milionario della porta accanto",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-milionario-della-porta-accanto-05b9a017b6244b1a8f4b2a459fd7984d",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "50061f00-9a8b-4457-86f9-0e963b1dbfde",
+         "created_time": "2023-11-04T14:16:00.000Z",
+         "last_edited_time": "2023-11-06T20:59:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 368
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61kDSQPQvZL._SL1500_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ramit Sethi",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ramit Sethi",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/aPsLUmkg"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ti insegno come diventare ricco",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ti insegno come diventare ricco",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Ti-insegno-come-diventare-ricco-50061f009a8b445786f90e963b1dbfde",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "ab620e6d-b5bf-47bf-a567-507f7c91257f",
+         "created_time": "2023-10-27T20:28:00.000Z",
+         "last_edited_time": "2023-11-06T20:58:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 384
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51HRYIl2XdL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Vicki Robin",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Vicki Robin",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/glEicKFC"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "O la borsa o la vita",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "O la borsa o la vita",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/O-la-borsa-o-la-vita-ab620e6db5bf47bfa567507f7c91257f",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "b1e35439-0d9d-43c0-acd1-e71f40ccb850",
+         "created_time": "2023-10-27T20:22:00.000Z",
+         "last_edited_time": "2023-11-06T20:58:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 256
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/618kNw124DL._SL1500_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Morgan Housel",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Morgan Housel",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/hBVHMISn"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "La psicologia dei soldi",
                         "link": null
                      },
                      "annotations": {
@@ -184,20 +562,20 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Come diventare indistraibili",
+                     "plain_text": "La psicologia dei soldi",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Come-diventare-indistraibili-f5ef615a68dc429caa713fdabf388971",
+         "url": "https://www.notion.so/La-psicologia-dei-soldi-b1e354390d9d43c0acd1e71f40ccb850",
          "public_url": null
       },
       {
          "object": "page",
-         "id": "7eaf85f9-f861-44d1-8e42-93d98b56c763",
-         "created_time": "2023-06-30T14:35:00.000Z",
-         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "id": "42a9751e-67d2-4297-b793-4da2c80f7a31",
+         "created_time": "2023-10-12T05:29:00.000Z",
+         "last_edited_time": "2023-11-06T20:57:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -214,10 +592,25 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 320
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
-               "url": "https://m.media-amazon.com/images/I/71z0Wf+H7CL.jpg"
+               "url": "https://m.media-amazon.com/images/I/91-ZaiTNn7L._SL1500_.jpg"
             },
             "Finished": {
                "id": "TKkN",
@@ -236,7 +629,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Ichiro Kishimi, Fumitake Koga",
+                        "content": "Henry David Thoreau",
                         "link": null
                      },
                      "annotations": {
@@ -247,20 +640,23 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Ichiro Kishimi, Fumitake Koga",
+                     "plain_text": "Henry David Thoreau",
                      "href": null
                   }
                ]
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 0
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
                "type": "url",
-               "url": "https://zltn.4word.it/b/RtHzimHn"
+               "url": "https://zltn.4word.it/b/Q7lfoEnf"
             },
             "Title": {
                "id": "title",
@@ -269,31 +665,943 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Il coraggio di essere felici. L’autentico cambiamento è nelle nostre mani",
+                        "content": "Walden ovvero Vita nei boschi",
                         "link": null
                      },
                      "annotations": {
-                        "bold": true,
+                        "bold": false,
                         "italic": false,
                         "strikethrough": false,
                         "underline": false,
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Il coraggio di essere felici. L’autentico cambiamento è nelle nostre mani",
+                     "plain_text": "Walden ovvero Vita nei boschi",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Il-coraggio-di-essere-felici-L-autentico-cambiamento-nelle-nostre-mani-7eaf85f9f86144d18e4293d98b56c763",
+         "url": "https://www.notion.so/Walden-ovvero-Vita-nei-boschi-42a9751e67d24297b7934da2c80f7a31",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "abd2ef4b-cdee-429b-a501-40456d6f1bfe",
+         "created_time": "2023-10-12T05:26:00.000Z",
+         "last_edited_time": "2023-11-06T20:57:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 182
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/91an1hOqmrL._SL1500_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Paulo Coelho",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Paulo Coelho",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/wo6ABnfB"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "L'alchimista",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "L'alchimista",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/L-alchimista-abd2ef4bcdee429ba50140456d6f1bfe",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "4199a05c-408e-4dd9-b998-e32198ef3d92",
+         "created_time": "2023-10-12T05:25:00.000Z",
+         "last_edited_time": "2023-11-06T20:57:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 486
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71ppUOpTBKL._SL1500_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Daniel Goleman",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Daniel Goleman",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/DwuCdjLk"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Intelligenza emotiva",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Intelligenza emotiva",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Intelligenza-emotiva-4199a05c408e4dd9b998e32198ef3d92",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "f023c89b-8866-43d2-b45d-6db55d19bf14",
+         "created_time": "2023-10-12T05:23:00.000Z",
+         "last_edited_time": "2023-11-06T20:56:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 800
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71fJRFAcWWL._SL1485_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Jordan Ellenberg",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Jordan Ellenberg",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/Kjh7LKj8"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "I numeri non sbagliano mai",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "I numeri non sbagliano mai",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/I-numeri-non-sbagliano-mai-f023c89b886643d2b45d6db55d19bf14",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "680c6094-76d8-4d0e-bf46-075e24e6aad7",
+         "created_time": "2023-10-12T05:22:00.000Z",
+         "last_edited_time": "2023-11-06T20:56:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 684
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61wGSkPKaeL._SL1500_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Daniel Kahneman",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Daniel Kahneman",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/DgQrGQAq"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Pensieri lenti e veloci",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Pensieri lenti e veloci",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Pensieri-lenti-e-veloci-680c609476d84d0ebf46075e24e6aad7",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "9bf3a184-d345-44fd-85b5-b41a3176390a",
+         "created_time": "2023-08-23T16:45:00.000Z",
+         "last_edited_time": "2023-11-06T20:55:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 548
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61mGcIU0pCL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Yuval Noah Harari",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Yuval Noah Harari",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/CRNrNfVb"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Homo Deus: Breve storia del futuro",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Homo Deus: Breve storia del futuro",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Homo-Deus-Breve-storia-del-futuro-9bf3a184d34544fd85b5b41a3176390a",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "e1eeb80c-1f80-4587-9aa0-e18b29c63697",
+         "created_time": "2023-08-23T16:44:00.000Z",
+         "last_edited_time": "2023-11-06T20:55:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 540
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/617iYmYjyOL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Yuval Noah Harari",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Yuval Noah Harari",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/8qsueEpn"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Sapiens. Da animali a dèi: Breve storia dell'umanità",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Sapiens. Da animali a dèi: Breve storia dell'umanità",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Sapiens-Da-animali-a-d-i-Breve-storia-dell-umanit-e1eeb80c1f8045879aa0e18b29c63697",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "267000c0-ff7c-4e8a-8321-dd1b94782345",
+         "created_time": "2023-07-29T12:16:00.000Z",
+         "last_edited_time": "2023-11-06T20:56:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 240
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51Q3wgElNqL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Cal Newport",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Cal Newport",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/QXLK8ROs"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Così bravo che non potranno ignorarti",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Così bravo che non potranno ignorarti",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Cos-bravo-che-non-potranno-ignorarti-267000c0ff7c4e8a8321dd1b94782345",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "dfac893f-00b4-48a1-8d43-487e6785479f",
+         "created_time": "2023-07-29T12:13:00.000Z",
+         "last_edited_time": "2023-11-06T20:56:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 240
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51UrdUw318L.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": false
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": null
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Brianna Wiest",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Brianna Wiest",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/S5vpgGdk"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "La montagna sei tu",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "La montagna sei tu",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/La-montagna-sei-tu-dfac893f00b448a18d43487e6785479f",
          "public_url": null
       },
       {
          "object": "page",
          "id": "ddc23054-25c9-4a2a-b1b3-82c410dbf289",
          "created_time": "2023-05-26T21:05:00.000Z",
-         "last_edited_time": "2023-07-21T15:35:00.000Z",
+         "last_edited_time": "2023-11-06T20:55:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -310,6 +1618,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 0
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 350
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -350,8 +1673,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 0
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 0
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -365,7 +1691,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                        "content": "4 ore alla settimana: ricchi e felici lavorando 10 volte meno",
                         "link": null
                      },
                      "annotations": {
@@ -376,7 +1702,7 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "4 ore alla settimana : ricchi e felici lavorando 10 volte meno",
+                     "plain_text": "4 ore alla settimana: ricchi e felici lavorando 10 volte meno",
                      "href": null
                   }
                ]
@@ -387,9 +1713,9 @@
       },
       {
          "object": "page",
-         "id": "5f9fe90b-6d6c-4a3c-b549-c0d70248048a",
-         "created_time": "2023-06-30T14:34:00.000Z",
-         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "id": "9749a674-60c1-4861-bc8b-e8c7b6fc253a",
+         "created_time": "2023-10-12T05:19:00.000Z",
+         "last_edited_time": "2023-11-06T20:55:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -406,6 +1732,965 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 251
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 251
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61QCnk4zdXL._SL1499_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-10-31",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Dan Millman",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Dan Millman",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/3C3V5Y04"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "La via del guerriero di pace",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "La via del guerriero di pace",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/La-via-del-guerriero-di-pace-9749a67460c14861bc8be8c7b6fc253a",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "7eaf85f9-f861-44d1-8e42-93d98b56c763",
+         "created_time": "2023-06-30T14:35:00.000Z",
+         "last_edited_time": "2023-11-06T20:54:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 280
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 280
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71z0Wf+H7CL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-10-21",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Ichiro Kishimi, Fumitake Koga",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Ichiro Kishimi, Fumitake Koga",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/RtHzimHn"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il coraggio di essere felici",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il coraggio di essere felici",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-coraggio-di-essere-felici-7eaf85f9f86144d18e4293d98b56c763",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "3be1bb63-44a2-4525-b584-e71daf73e913",
+         "created_time": "2023-09-23T21:38:00.000Z",
+         "last_edited_time": "2023-11-06T20:54:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 227
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 227
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51Ck6E7it4L._SY466_.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-10-10",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Agatha Christie",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Agatha Christie",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/6cKukijq"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Poirot e la strage degli innocenti",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Poirot e la strage degli innocenti",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Poirot-e-la-strage-degli-innocenti-3be1bb6344a24525b584e71daf73e913",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "735bcd45-dab5-4cfd-a8c0-dd4e900bcca5",
+         "created_time": "2023-08-18T17:32:00.000Z",
+         "last_edited_time": "2023-11-06T20:54:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 336
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 336
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/41dbE4dyk5L.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-09-30",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Kevin D. Mitnick",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Kevin D. Mitnick",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/MZqsK38y"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "L'arte dell'inganno",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "L'arte dell'inganno",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/L-arte-dell-inganno-735bcd45dab54cfda8c0dd4e900bcca5",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "d266d756-06a6-41a2-b054-fa7fb34703e4",
+         "created_time": "2023-07-29T12:15:00.000Z",
+         "last_edited_time": "2023-11-06T20:53:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 156
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 156
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61FFBK99RjL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-09-14",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Piero Angela",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Piero Angela",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/OKX2mqwb"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Dieci cose che ho imparato",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Dieci cose che ho imparato",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Dieci-cose-che-ho-imparato-d266d75606a641a2b054fa7fb34703e4",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "f5ef615a-68dc-429c-aa71-3fdabf388971",
+         "created_time": "2023-06-30T14:40:00.000Z",
+         "last_edited_time": "2023-11-06T20:53:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 224
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 224
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/61te-GSfeTL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-09-05",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Nir Eyal",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Nir Eyal",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/gk35HGTY"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Come diventare indistraibili",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Come diventare indistraibili",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Come-diventare-indistraibili-f5ef615a68dc429caa713fdabf388971",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "ef91ae57-e2f3-4bd5-8d85-073c25fc6dfc",
+         "created_time": "2023-07-22T12:56:00.000Z",
+         "last_edited_time": "2023-11-06T20:53:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 256
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 256
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/71wV68JfZ7L.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-08-21",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Rudy Pesenti",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Rudy Pesenti",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/ktPSKPN1"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Il respiro delle stelle",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": true,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Il respiro delle stelle",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Il-respiro-delle-stelle-ef91ae57e2f34bd58d85073c25fc6dfc",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "0b4719ff-89f2-465f-b728-9b299e64257b",
+         "created_time": "2023-06-30T14:32:00.000Z",
+         "last_edited_time": "2023-11-06T20:53:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 320
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 320
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
+            "Cover": {
+               "id": "N%5CW%60",
+               "type": "url",
+               "url": "https://m.media-amazon.com/images/I/51L7Ca8lowL.jpg"
+            },
+            "Finished": {
+               "id": "TKkN",
+               "type": "checkbox",
+               "checkbox": true
+            },
+            "Date": {
+               "id": "_%5DWf",
+               "type": "date",
+               "date": {
+                  "start": "2023-08-05",
+                  "end": null,
+                  "time_zone": null
+               }
+            },
+            "Author": {
+               "id": "lGBo",
+               "type": "rich_text",
+               "rich_text": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Mark Manson",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Mark Manson",
+                     "href": null
+                  }
+               ]
+            },
+            "Progress": {
+               "id": "%7CmhK",
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
+            },
+            "Link": {
+               "id": "%7DnS%5E",
+               "type": "url",
+               "url": "https://zltn.4word.it/b/2ln9m56c"
+            },
+            "Title": {
+               "id": "title",
+               "type": "title",
+               "title": [
+                  {
+                     "type": "text",
+                     "text": {
+                        "content": "Siamo fottuti: ma forse c’è ancora una speranza",
+                        "link": null
+                     },
+                     "annotations": {
+                        "bold": false,
+                        "italic": false,
+                        "strikethrough": false,
+                        "underline": false,
+                        "code": false,
+                        "color": "default"
+                     },
+                     "plain_text": "Siamo fottuti: ma forse c’è ancora una speranza",
+                     "href": null
+                  }
+               ]
+            }
+         },
+         "url": "https://www.notion.so/Siamo-fottuti-ma-forse-c-ancora-una-speranza-0b4719ff89f2465fb7289b299e64257b",
+         "public_url": null
+      },
+      {
+         "object": "page",
+         "id": "5f9fe90b-6d6c-4a3c-b549-c0d70248048a",
+         "created_time": "2023-06-30T14:34:00.000Z",
+         "last_edited_time": "2023-11-06T20:52:00.000Z",
+         "created_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "last_edited_by": {
+            "object": "user",
+            "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
+         },
+         "cover": null,
+         "icon": null,
+         "parent": {
+            "type": "database_id",
+            "database_id": "7b26a53e-99e3-44b1-8b91-30ac7547834d"
+         },
+         "archived": false,
+         "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 284
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 284
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -450,8 +2735,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -465,7 +2753,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Il coraggio di non piacere. Liberati dal giudizio degli altri e trova l’autentica felicità",
+                        "content": "Il coraggio di non piacere",
                         "link": null
                      },
                      "annotations": {
@@ -476,20 +2764,20 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Il coraggio di non piacere. Liberati dal giudizio degli altri e trova l’autentica felicità",
+                     "plain_text": "Il coraggio di non piacere",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Il-coraggio-di-non-piacere-Liberati-dal-giudizio-degli-altri-e-trova-l-autentica-felicit-5f9fe90b6d6c4a3cb549c0d70248048a",
+         "url": "https://www.notion.so/Il-coraggio-di-non-piacere-5f9fe90b6d6c4a3cb549c0d70248048a",
          "public_url": null
       },
       {
          "object": "page",
          "id": "dc9a3808-c7cb-41ad-9b18-43ef91ff4fbf",
          "created_time": "2023-06-30T14:44:00.000Z",
-         "last_edited_time": "2023-07-21T11:50:00.000Z",
+         "last_edited_time": "2023-11-06T20:52:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -506,6 +2794,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 256
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 256
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -550,8 +2853,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -589,7 +2895,7 @@
          "object": "page",
          "id": "bae58d38-6efe-4b46-8aa6-c6717cd11146",
          "created_time": "2023-06-10T05:58:00.000Z",
-         "last_edited_time": "2023-07-21T15:34:00.000Z",
+         "last_edited_time": "2023-11-06T20:52:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -606,6 +2912,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 256
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 256
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -650,8 +2971,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -689,7 +3013,7 @@
          "object": "page",
          "id": "8aa6156c-8454-4bac-8d3a-9c66e589bff2",
          "created_time": "2023-05-26T21:07:00.000Z",
-         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "last_edited_time": "2023-11-06T20:52:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -706,6 +3030,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 336
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 336
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -750,8 +3089,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -765,7 +3107,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Piccole abitudini per grandi cambiamenti : trasforma la tua vita un piccolo passo per volta",
+                        "content": "Piccole abitudini per grandi cambiamenti",
                         "link": null
                      },
                      "annotations": {
@@ -776,20 +3118,20 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Piccole abitudini per grandi cambiamenti : trasforma la tua vita un piccolo passo per volta",
+                     "plain_text": "Piccole abitudini per grandi cambiamenti",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Piccole-abitudini-per-grandi-cambiamenti-trasforma-la-tua-vita-un-piccolo-passo-per-volta-8aa6156c84544bac8d3a9c66e589bff2",
+         "url": "https://www.notion.so/Piccole-abitudini-per-grandi-cambiamenti-8aa6156c84544bac8d3a9c66e589bff2",
          "public_url": null
       },
       {
          "object": "page",
          "id": "dff5b003-9ef9-4171-90b0-bab6aa334f34",
          "created_time": "2023-05-26T20:57:00.000Z",
-         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "last_edited_time": "2023-11-06T20:51:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -806,6 +3148,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 328
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 328
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -850,8 +3207,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -865,7 +3225,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Il metodo Bullet Journal : tieni traccia del passato, ordina il presente, progetta il futuro",
+                        "content": "Il metodo Bullet Journal",
                         "link": null
                      },
                      "annotations": {
@@ -876,20 +3236,20 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Il metodo Bullet Journal : tieni traccia del passato, ordina il presente, progetta il futuro",
+                     "plain_text": "Il metodo Bullet Journal",
                      "href": null
                   }
                ]
             }
          },
-         "url": "https://www.notion.so/Il-metodo-Bullet-Journal-tieni-traccia-del-passato-ordina-il-presente-progetta-il-futuro-dff5b0039ef9417190b0bab6aa334f34",
+         "url": "https://www.notion.so/Il-metodo-Bullet-Journal-dff5b0039ef9417190b0bab6aa334f34",
          "public_url": null
       },
       {
          "object": "page",
          "id": "0fc0a027-dc6a-491c-ad95-13de3870e5ae",
          "created_time": "2023-05-26T20:56:00.000Z",
-         "last_edited_time": "2023-07-21T15:33:00.000Z",
+         "last_edited_time": "2023-11-06T20:51:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -906,6 +3266,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 432
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 432
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -950,8 +3325,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -965,7 +3343,7 @@
                   {
                      "type": "text",
                      "text": {
-                        "content": "Il potere delle abitudini : come si formano, quanto ci condizionano, come cambiarle",
+                        "content": "Il potere delle abitudini: come si formano, quanto ci condizionano, come cambiarle",
                         "link": null
                      },
                      "annotations": {
@@ -976,7 +3354,7 @@
                         "code": false,
                         "color": "default"
                      },
-                     "plain_text": "Il potere delle abitudini : come si formano, quanto ci condizionano, come cambiarle",
+                     "plain_text": "Il potere delle abitudini: come si formano, quanto ci condizionano, come cambiarle",
                      "href": null
                   }
                ]
@@ -989,7 +3367,7 @@
          "object": "page",
          "id": "1275bd2c-7b8a-460f-8897-2ba39c64f8ba",
          "created_time": "2022-07-03T06:55:00.000Z",
-         "last_edited_time": "2023-07-21T15:32:00.000Z",
+         "last_edited_time": "2023-11-06T20:51:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -1006,6 +3384,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 180
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 180
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -1050,8 +3443,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -1089,7 +3485,7 @@
          "object": "page",
          "id": "b0b8c995-a1bf-4ea7-9259-9e5e6e7f1386",
          "created_time": "2022-07-03T06:55:00.000Z",
-         "last_edited_time": "2023-07-21T11:50:00.000Z",
+         "last_edited_time": "2023-11-06T20:50:00.000Z",
          "created_by": {
             "object": "user",
             "id": "12e1d6f0-ab45-490a-91d2-6a7e3dd881de"
@@ -1106,6 +3502,21 @@
          },
          "archived": false,
          "properties": {
+            "ProgressivePages": {
+               "id": "%3BZB%3A",
+               "type": "number",
+               "number": 274
+            },
+            "TotPages": {
+               "id": "%40RWu",
+               "type": "number",
+               "number": 274
+            },
+            "AuthorLink": {
+               "id": "Fv%3CO",
+               "type": "url",
+               "url": null
+            },
             "Cover": {
                "id": "N%5CW%60",
                "type": "url",
@@ -1150,8 +3561,11 @@
             },
             "Progress": {
                "id": "%7CmhK",
-               "type": "number",
-               "number": 100
+               "type": "formula",
+               "formula": {
+                  "type": "number",
+                  "number": 100
+               }
             },
             "Link": {
                "id": "%7DnS%5E",
@@ -1189,5 +3603,7 @@
    "next_cursor": null,
    "has_more": false,
    "type": "page_or_database",
-   "page_or_database": {}
+   "page_or_database": {},
+   "developer_survey": "https://notionup.typeform.com/to/bllBsoI4?utm_source=postman",
+   "request_id": "f71b3afa-ebee-463d-8c06-f402dd82f2e2"
 }
