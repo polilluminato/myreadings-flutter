@@ -6,5 +6,5 @@
     channel = "stable"
 
 [build]
-   command = "flutter build web --release --dart-define WORKER_URL=${WORKER_URL}"
+   command = "dart run build_runner build --delete-conflicting-outputs && flutter build web --release --dart-define WORKER_URL=${WORKER_URL}"
    publish = "build/web"
