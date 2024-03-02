@@ -10,7 +10,7 @@ import 'package:myreadings/provider/notion_provider.dart';
 import 'package:myreadings/utils/screen_utils.dart' as screen_utils;
 
 class BookList extends ConsumerWidget {
-  const BookList({Key? key}) : super(key: key);
+  const BookList({super.key});
 
   int _getColumnsNumber(double screenSizeWidth) {
     if (screenSizeWidth <= WindowSizeEnum.tabletPortrait.width) {

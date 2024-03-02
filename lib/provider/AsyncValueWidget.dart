@@ -4,8 +4,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 //https://codewithandrea.com/articles/async-value-widget-riverpod/
 class AsyncValueWidget<T> extends StatelessWidget {
-  const AsyncValueWidget({Key? key, required this.value, required this.data})
-      : super(key: key);
+  const AsyncValueWidget({super.key, required this.value, required this.data});
   // input async value
   final AsyncValue<T> value;
   // output builder function

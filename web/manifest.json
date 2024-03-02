@@ -1,11 +1,11 @@
 {
-    "name": "myreadings",
-    "short_name": "myreadings",
+    "name": "My Reading List with Notion and Flutter Web",
+    "short_name": "My Reading List",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
     "theme_color": "#0175C2",
-    "description": "A new Flutter project.",
+    "description": "Web app to show a reading list built with Flutter and Notion",
     "orientation": "portrait-primary",
     "prefer_related_applications": false,
     "icons": [

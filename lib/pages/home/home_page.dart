@@ -4,7 +4,7 @@ import 'package:myreadings/pages/home/book_list.dart';
 import 'package:myreadings/utils/platform_utils.dart';
 
 class HomePage extends ConsumerWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {

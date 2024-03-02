@@ -1,3 +1,4 @@
+import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
 import 'package:myreadings/models/book.dart';
 import 'package:myreadings/pages/home/ui/status_banner.dart';
@@ -5,7 +6,10 @@ import 'package:myreadings/utils/platform_utils.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
 class BookCard extends StatelessWidget {
-  const BookCard({super.key, required this.book});
+  const BookCard({
+    super.key,
+    required this.book,
+  });
 
   final Book book;
 
@@ -25,17 +29,19 @@ class BookCard extends StatelessWidget {
             child: Row(
               children: [
                 Flexible(
-                  flex: 2,
+                  flex: 1,
                   child: Padding(
                     padding: const EdgeInsets.only(right: 16),
-                    child: ClipRRect(
-                      borderRadius: BorderRadius.circular(8), // Image border
-                      child: Image.network(book.cover),
+                    child: ExtendedImage.network(
+                      book.cover,
+                      fit: BoxFit.fill,
+                      cache: true,
                     ),
+                    //cancelToken: cancellationToken,
                   ),
                 ),
                 Flexible(
-                  flex: 4,
+                  flex: 2,
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     mainAxisAlignment: MainAxisAlignment.start,

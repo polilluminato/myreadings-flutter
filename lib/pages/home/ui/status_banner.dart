@@ -2,8 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:super_banners/super_banners.dart';
 
 class StatusBanner extends StatelessWidget {
-  const StatusBanner(
-      {super.key, required this.progress, required this.isFinished});
+  const StatusBanner({
+    super.key,
+    required this.progress,
+    required this.isFinished,
+  });
 
   final int progress;
   final bool isFinished;
