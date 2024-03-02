@@ -46,3 +46,5 @@ app.*.map.json
 #Environments
 *.env
 api-keys.json
+*.freezed.dart
+*.g.dart
