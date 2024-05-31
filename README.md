@@ -71,6 +71,12 @@ With all this configured each push on main automatically triggers a build that i
 
 ### 🚀 Run Project
 
+I used [freezed](https://pub.dev/packages/freezed) to handle the json responses coming back from the API, but the generated `*.freezed.dart` and `*.g.dart` files were not committed, so before starting the project you need to run `build_runner` in order to create them:
+
+```sh
+dart run build_runner build --delete-conflicting-outputs
+```
+
 To run the project you have to pass some environment variables as described here: [How to Store API Keys in Flutter: --dart-define vs .env files](https://codewithandrea.com/articles/flutter-api-keys-dart-define-env-files/), in my case I opted for passing the key using `--dart-define` as it is easily integrated with CI/CD tools. This can be done in two ways:
 
 * pass individual variables to the build command with `--dart-define MY_VARIABLE=value`, a choice that is later used in Netlify to create the release build
