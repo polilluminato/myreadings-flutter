@@ -4,10 +4,10 @@ import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:myreadings/enums/windowsize_enum.dart';
 import 'package:myreadings/models/book.dart';
 import 'package:myreadings/models/notion_page.dart';
-import 'package:myreadings/pages/home/ui/book_card.dart';
-import 'package:myreadings/provider/AsyncValueWidget.dart';
+import 'package:myreadings/presentation/pages/home/ui/book_card.dart';
+import 'package:myreadings/presentation/views/async_value_widget.dart';
 import 'package:myreadings/provider/notion_provider.dart';
-import 'package:myreadings/utils/screen_utils.dart' as screen_utils;
+import 'package:myreadings/utils/screen_utils.dart';
 
 class BookList extends ConsumerWidget {
   const BookList({super.key});
@@ -30,7 +30,7 @@ class BookList extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final bookList = ref.watch(bookListProvider);
-    double screenSizeWidth = screen_utils.getScreenWidth(context);
+    double screenSizeWidth = getScreenWidth(context);
 
     return AsyncValueWidget<List<NotionPage>?>(
       value: bookList,

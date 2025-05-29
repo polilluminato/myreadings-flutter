@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:myreadings/pages/home/book_list.dart';
+import 'package:myreadings/presentation/pages/home/book_list.dart';
 import 'package:myreadings/utils/platform_utils.dart';
 
 class HomePage extends ConsumerWidget {
@@ -15,19 +15,17 @@ class HomePage extends ConsumerWidget {
           "My Reading List",
         ),
         actions: [
-          PopupMenuButton(
-            itemBuilder: (context) => [
-              PopupMenuItem(
-                onTap: () => openExternalURL(
-                    "https://github.com/polilluminato/myreadings-flutter"),
-                child: const Text("Github Repo"),
-              ),
-              PopupMenuItem(
-                onTap: () => openExternalURL("https://www.albertobonacina.com"),
-                child: const Text("My Website"),
-              ),
-            ],
-          )
+          IconButton(
+            icon: Icon(Icons.code),
+            tooltip: 'GitHub Repo',
+            onPressed: () => openExternalURL(
+                "https://github.com/polilluminato/myreadings-flutter"),
+          ),
+          IconButton(
+            icon: Icon(Icons.language),
+            tooltip: 'My Website',
+            onPressed: () => openExternalURL("https://www.albertobonacina.com"),
+          ),
         ],
       ),
       body: const Padding(

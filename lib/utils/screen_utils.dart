@@ -1,13 +1,13 @@
 import 'package:flutter/widgets.dart';
 
-Size getScreenSize(BuildContext context) {
-  return MediaQuery.of(context).size;
-}
-
 double getScreenWidth(BuildContext context) {
-  return getScreenSize(context).width;
+  return MediaQuery.sizeOf(context).width;
 }
 
 double getScreenHeight(BuildContext context) {
-  return getScreenSize(context).height;
+  return MediaQuery.sizeOf(context).height;
 }
+
+SizedBox gapW(double width) => SizedBox(width: width);
+
+SizedBox gapH(double height) => SizedBox(height: height);

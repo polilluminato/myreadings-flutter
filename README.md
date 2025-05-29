@@ -3,10 +3,16 @@
   <p align="center">
   <a href="https://dart.dev/"><img src="https://img.shields.io/badge/Dart-0175C2?style=for-the-badge&logo=dart&logoColor=white"></a>
   <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
-  <a href="https://www.apache.org/licenses/LICENSE-2.0.html"><img src="https://img.shields.io/badge/licence-Apache%202.0-yellow?style=for-the-badge&"></a>
+  <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/licence-MIT-green?style=for-the-badge&"></a>
   <a href="https://www.netlify.com/"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
   <a href="https://www.cloudflare.com/"><img src="https://img.shields.io/badge/CloudFlare-e06d10?style=for-the-badge&logo=cloudflare&logoColor=white"/></a>
-  </p>
+  <br>
+  <a href="https://github.com/polilluminato/myreadings-flutter"><img src="https://img.shields.io/github/stars/polilluminato/myreadings-flutter?style=social" alt="Repo stars"></a>
+  <a href="https://github.com/polilluminato/myreadings-flutter/commits/main"><img src="https://img.shields.io/github/last-commit/polilluminato/myreadings-flutter/main?logo=git" alt="Last Commit"></a>
+  <a href="https://github.com/polilluminato/myreadings-flutter/pulls"><img src="https://img.shields.io/github/issues-pr/polilluminato/myreadings-flutter" alt="Repo PRs"></a>
+  <a href="https://github.com/polilluminato/myreadings-flutter/issues?q=is%3Aissue+is%3Aopen"><img src="https://img.shields.io/github/issues/polilluminato/myreadings-flutter" alt="Repo issues"></a>
+  <a href="https://github.com/polilluminato/myreadings-flutter/graphs/contributors"><img src="https://badgen.net/github/contributors/polilluminato/myreadings-flutter" alt="Contributors"></a>
+</p>
 </div>
 
 <img src="screenshots/homepage.png"/>
@@ -114,20 +120,8 @@ In my case the variable that is passed at build time, and which is also specifie
 
 If you have any idea, feel free to fork it and submit your changes back to me.
 
-## 📃 License
+## 📋 License
 
-```
-Copyright 2024 Alberto Bonacina
+This project is released under the [MIT license](LICENSE.md). You can use the code for any purpose, including commercial projects.
 
-Licensed under the Apache License, Version 2.0 (the "License");
-you may not use this file except in compliance with the License.
-You may obtain a copy of the License at
-
-   http://www.apache.org/licenses/LICENSE-2.0
-
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS,
-WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-See the License for the specific language governing permissions and
-limitations under the License.
-```
+[![license](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

@@ -1,24 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:myreadings/app/router.dart';
+import 'package:myreadings/presentation/pages/home/home_page.dart';
 
 class App extends StatelessWidget {
-  App({super.key});
-
-  final router = buildRouter();
+  const App({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp.router(
+    return MaterialApp(
+      title: 'My Reading List',
       debugShowCheckedModeBanner: false,
-      routeInformationProvider: router.routeInformationProvider,
-      routeInformationParser: router.routeInformationParser,
-      routerDelegate: router.routerDelegate,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
-          seedColor: Colors.blueGrey,
+          seedColor: Colors.deepPurple,
           brightness: Brightness.dark,
         ),
       ),
+      home: const HomePage(),
     );
   }
 }
