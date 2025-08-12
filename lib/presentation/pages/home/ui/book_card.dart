@@ -1,6 +1,6 @@
 import 'package:extended_image/extended_image.dart';
 import 'package:flutter/material.dart';
-import 'package:myreadings/models/book.dart';
+import 'package:myreadings/models/book_model.dart';
 import 'package:myreadings/utils/platform_utils.dart';
 import 'package:myreadings/utils/screen_utils.dart';
 import 'package:percent_indicator/linear_percent_indicator.dart';
@@ -11,10 +11,10 @@ class BookCard extends StatelessWidget {
     required this.book,
   });
 
-  final Book book;
+  final BookModel book;
 
   Color _getBannerColor() {
-    if (book.isFinished) {
+    if (book.finished) {
       return Colors.green[900] ?? Colors.green;
     } else {
       return Colors.grey[800] ?? Colors.grey;
@@ -25,9 +25,10 @@ class BookCard extends StatelessWidget {
   Widget build(BuildContext context) {
     ColorScheme colorScheme = Theme.of(context).colorScheme;
     TextTheme textTheme = Theme.of(context).textTheme;
+    double progress = book.progressivePage / book.totalPages;
 
     return Banner(
-      message: book.isFinished ? "#finished" : "#planned",
+      message: book.finished ? "#finished" : "#planned",
       location: BannerLocation.topStart,
       color: _getBannerColor(),
       child: Card(
@@ -58,18 +59,18 @@ class BookCard extends StatelessWidget {
                       style: textTheme.bodyLarge!.copyWith(fontSize: 22),
                     ),
                     Text(
-                      "by ${book.author}\n${book.totPages} pages",
+                      "by ${book.author}\n${book.totalPages} pages",
                       style: textTheme.bodyMedium,
                     ),
                     gapH(8),
-                    if (!book.isFinished && book.progress > 0)
+                    if (!book.finished && progress > 0)
                       LinearPercentIndicator(
-                        percent: book.progress / 100,
+                        percent: progress,
                         progressColor: colorScheme.onPrimary,
                         lineHeight: 8,
                         barRadius: const Radius.circular(8),
                         trailing: Text(
-                          "${book.progress.toString()} %",
+                          "${(progress * 100).ceil()} %",
                           style: const TextStyle(
                             fontSize: 12,
                           ),

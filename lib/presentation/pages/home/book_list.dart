@@ -2,15 +2,27 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_staggered_grid_view/flutter_staggered_grid_view.dart';
 import 'package:myreadings/enums/windowsize_enum.dart';
-import 'package:myreadings/models/book.dart';
-import 'package:myreadings/models/notion_page.dart';
+import 'package:myreadings/models/book_model.dart';
 import 'package:myreadings/presentation/pages/home/ui/book_card.dart';
-import 'package:myreadings/presentation/views/async_value_widget.dart';
-import 'package:myreadings/provider/notion_provider.dart';
+import 'package:myreadings/provider/service_locator.dart';
+import 'package:myreadings/repository/book_repository.dart';
 import 'package:myreadings/utils/screen_utils.dart';
 
-class BookList extends ConsumerWidget {
+class BookList extends ConsumerStatefulWidget {
   const BookList({super.key});
+
+  @override
+  ConsumerState<BookList> createState() => _BookListState();
+}
+
+class _BookListState extends ConsumerState<BookList> {
+  late final Future<List<BookModel>> bookList;
+
+  @override
+  void initState() {
+    super.initState();
+    bookList = DI<BookRepository>().getBookList();
+  }
 
   int _getColumnsNumber(double screenSizeWidth) {
     if (screenSizeWidth <= WindowSizeEnum.tabletPortrait.width) {
@@ -28,11 +40,28 @@ class BookList extends ConsumerWidget {
   }
 
   @override
-  Widget build(BuildContext context, WidgetRef ref) {
-    final bookList = ref.watch(bookListProvider);
+  Widget build(BuildContext context) {
     double screenSizeWidth = getScreenWidth(context);
 
-    return AsyncValueWidget<List<NotionPage>?>(
+    return FutureBuilder(
+        future: bookList,
+        builder: (context, snapshot) {
+          if (snapshot.hasData) {
+            return AlignedGridView.count(
+              crossAxisCount: _getColumnsNumber(screenSizeWidth),
+              mainAxisSpacing: 16,
+              crossAxisSpacing: 16,
+              itemCount: snapshot.data!.length,
+              itemBuilder: (_, index) {
+                return BookCard(book: snapshot.data![index]);
+              },
+            );
+          } else {
+            return const Center(child: CircularProgressIndicator());
+          }
+        });
+
+    /*return AsyncValueWidget<List<BookModel>?>(
       value: bookList,
       data: (data) {
         return AlignedGridView.count(
@@ -45,6 +74,6 @@ class BookList extends ConsumerWidget {
           },
         );
       },
-    );
+    );*/
   }
 }
