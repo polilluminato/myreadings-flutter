@@ -11,7 +11,8 @@ class BookRepository {
     final result = await _supabaseService.client
         .from('books')
         .select()
-        .order('created_at', ascending: false);
+        .order('finished', ascending: true)
+        .order('finished_date', ascending: false);
     return result.map((e) => BookModel.fromJson(e)).toList();
   }
 }

@@ -5,7 +5,7 @@
   <a href="https://flutter.dev/"><img src="https://img.shields.io/badge/Flutter-02569B?style=for-the-badge&logo=flutter&logoColor=white"></a>
   <a href="https://opensource.org/licenses/MIT"><img src="https://img.shields.io/badge/licence-MIT-green?style=for-the-badge&"></a>
   <a href="https://www.netlify.com/"><img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white"/></a>
-  <a href="https://supabase.com/"><img src="https://img.shields.io/badge/Supabase-006239?style=for-the-badge&logo=supabase&logoColor=white"/></a>
+  <a href="https://www.cloudflare.com/"><img src="https://img.shields.io/badge/CloudFlare-e06d10?style=for-the-badge&logo=cloudflare&logoColor=white"/></a>
   <br>
   <a href="https://github.com/polilluminato/myreadings-flutter"><img src="https://img.shields.io/github/stars/polilluminato/myreadings-flutter?style=social" alt="Repo stars"></a>
   <a href="https://github.com/polilluminato/myreadings-flutter/commits/main"><img src="https://img.shields.io/github/last-commit/polilluminato/myreadings-flutter/main?logo=git" alt="Last Commit"></a>
@@ -15,45 +15,64 @@
 </p>
 </div>
 
-<img src="screenshots/homepage.png"/>
+<img src="old_notion/screenshots/homepage.png"/>
 
 The purpose of this application is to create a dashboard where you can share the books you have read, future books, and track the progress of those being read.
 
-The application currently allows you to view books that have been saved in a [Supabase](https://supabase.com/) database and shows them on a web page, so it does not allow books to be added, edited or deleted. 
+The application currently allows you to view books that have been saved in a [Notion](https://www.notion.so/) database and shows them on a web page, so it does not allow books to be added, edited or deleted. 
+
+Since Notion API cannot be called directly from a web page a [CloudFlare Worker](https://workers.cloudflare.com/) was created as middleware between the web page and the API, whose code is in the file `old_notion/cloudflare/worker.js`.
+
+You can read the blog post on my blog here: [Boosting Productivity: A Guide to Building a Reading List App with Notion and Flutter Web](https://blog.albertobonacina.com/boosting-productivity-a-guide-to-building-a-reading-list-app-with-notion-and-flutter-web)
 
 ## 🧬 Project Structure
 
-### 🗃️ Supabase Database
+To better understand how the application is organized an outline of its architecture is given, and the individual parts will be described in the dedicated sections:
 
-A [Supabase database](https://supabase.com/database) with these characteristics was used to save the list of books and their characteristics:
+<img src="old_notion/screenshots/architecture-diagram.jpg"/>
 
-```sql
-CREATE TABLE public.books (
-  id bigint GENERATED ALWAYS AS IDENTITY NOT NULL,
-  created_at timestamp with time zone NOT NULL DEFAULT now(),
-  title character varying NOT NULL DEFAULT ''::character varying,
-  author character varying NOT NULL DEFAULT ''::character varying,
-  progressive_page integer NOT NULL,
-  total_pages integer NOT NULL,
-  finished_date date,
-  cover character varying NOT NULL DEFAULT ''::character varying,
-  link character varying NOT NULL,
-  finished boolean NOT NULL DEFAULT false,
-  CONSTRAINT books_pkey PRIMARY KEY (id)
-);
-```
+### 📚 Notion Database
+
+A [Notion database](https://www.notion.so/help/category/databases) with these characteristics was used to save the list of books and their characteristics:
+
+<img src="old_notion/screenshots/notion-database-schema.png"/>
+
+In order to read the information within the database we must then create a Notion application, called [Integration](https://developers.notion.com/docs/create-a-notion-integration), to which we must give read privileges to the database. Once the application is created we will be given a secret in the form `secret_XXXX` which we must use later to interact with the API and take information from our database.
+
+To make interaction with the Notion API easier, it is useful to pin these variables that will be used later in the Cloudflare Worker:
+
+* NOTION_API_VERSION: `2022-06-28`
+* NOTION_BASE_URL: in our case is `https://api.notion.com/v1/databases`
+* NOTION_DB_BOOKS: it can be found by going to look at the url of the Notion pages where the database is located
+* NOTION_SECRET_KEY: `secret_XXXX`, found on the Integration page
+
+### ⚙️ CloudFlare Worker
+
+A CloudFlare Worker was used between the web page and the Notion API because calling the Notion API directly from the web page returned a CORS error, here some discussion on StackOverflow:
+
+* [Notion API, Vanilla JS, Fetch does not work [duplicate]](https://stackoverflow.com/questions/68781041/notion-api-vanilla-js-fetch-does-not-work)
+* [Can I use fetch to call the Notion API?](https://stackoverflow.com/questions/68015381/can-i-use-fetch-to-call-the-notion-api)
+
+The worker code is in the file `cloudflare/worker.js` where [environment variables](https://developers.cloudflare.com/workers/configuration/environment-variables/) have also been managed to safely include the worker code in the repo.
+
+<img src="old_notion/screenshots/cloudflare-worker.png"/>
+
+The code in the `worker.js` is very very simplified and has been adapted for this particular case, for more generic solutions or to wrap Notion's api in those of the worker you can refer to these two repos on GitHub:
+
+* [sebtoombs/notion-api-worker](https://github.com/sebtoombs/notion-api-worker): Notion API Worker is a Cloudflare worker to wrap & cache the public Notion API.
+* [splitbee/notion-api-worker](https://github.com/splitbee/notion-api-worker): A serverless wrapper for the private Notion API. It provides fast and easy access to your Notion content. Ideal to make Notion your CMS.
 
 ### 🔮 Netlify Build
 
 In order to have a complete environment that allows me, with each push on main, to have an automatic deployment in production I relied on [Netlify](https://www.netlify.com/) where I created a new site and configured in their dashboard the domain to which the build responds, had Netlify generate an SSL certificate with Let's Encrypt to have my site available under https, created the [environment variables](https://docs.netlify.com/environment-variables/overview/) and set up the file that it has to read to run the build whose code is in the file `netlify.toml`. 
 
-<img src="screenshots/netlify-environment-varibles.png"/>
+<img src="old_notion/screenshots/netlify-environment-varibles.png"/>
 
 Netlify already provides an integration for building a Flutter web app with the [Flutter SDK](https://www.netlify.com/integrations/community-built/flutter-sdk-build-plugin/) plugin that you can install with a single click on your site, the project repo can be found here: [Netlify Flutter Build Plugin](https://github.com/bencevans/netlify-plugin-flutter). 
 
 With all this configured each push on main automatically triggers a build that if correct that is released directly to production within a few minutes.
 
-<img src="screenshots/netlify-builds.png"/>
+<img src="old_notion/screenshots/netlify-builds.png"/>
 
 
 ### 🚀 Run Project
@@ -95,7 +114,7 @@ Within the app you can then take the reference to the environment variable in th
 const myEnvironmentValue = String.fromEnvironment('MY_VARIABLE');
 ```
 
-In my case variables that are passed at build time, and which is also specified in the `netlify.toml` file are `SUPABASE_URL` and `SUPABASE_ANON_KEY`.
+In my case the variable that is passed at build time, and which is also specified in the `netlify.toml` file is `WORKER_URL` which is given to me by Cloudflare when I create the worker in its dashboard.
 
 ## 💎 Contributing
 

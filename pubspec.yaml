@@ -2,7 +2,7 @@ name: myreadings
 description: A Flutter web project to display the list of books I've read
 publish_to: "none"
 
-version: 0.0.1+1
+version: 0.0.2+2
 
 environment:
   sdk: ">=3.3.1 <4.0.0"
